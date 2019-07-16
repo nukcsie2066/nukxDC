@@ -1,0 +1,3704 @@
+Reading configuration file ue.conf...
+
+Built in Release mode using commit 0a69e56 on branch develop_ue.
+
+Buffer capacity 10240
+Buffer capacity 40960
+---  Software Radio Systems LTE UE  ---
+
+Opening RF device with 1 RX antennas...
+Opening USRP with args: type=b200,master_clock_rate=30.72e6
+LWAAP MAC f4:96:34:3:66:5a
+Waiting PHY to initialize...
+...
+Attaching UE...
+Searching cell in DL EARFCN=500, f_dl=2160.0 MHz, f_ul=1970.0 MHz
+.
+Found Cell:  PCI=1, PRB=25, Ports=1, CFO=-1.5 KHz
+Found PLMN:  Id=00101, TAC=1
+Random Access Transmission: seq=21, ra-rnti=0x2
+RRC Connected
+Random Access Complete.     c-rnti=0x48, ta=0
+Network attach successful. IP: 172.16.0.4
+Software Radio Systems LTE (srsLTE)
+Size 10237, 3 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+Size 10237, 3 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+Timeout PDU SN: 511, Window 17.1 used
+Timeout PDU SN: 518, Window 34.8 used
+Timeout PDU SN: 981, Window 35.7 used
+Timeout PDU SN: 1467, Window 35.9 used
+Timeout PDU SN: 1956, Window 36.0 used
+Timeout PDU SN: 2447, Window 36.0 used
+Timeout PDU SN: 2940, Window 35.9 used
+Timeout PDU SN: 3431, Window 35.9 used
+Timeout PDU SN: 3918, Window 36.0 used
+Timeout PDU SN: 317, Window 35.8 used
+Timeout PDU SN: 804, Window 36.1 used
+Timeout PDU SN: 1300, Window 35.9 used
+Timeout PDU SN: 1794, Window 35.7 used
+Timeout PDU SN: 2278, Window 36.0 used
+Size 9818, 422 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 419x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2769, Window 36.1 used
+Timeout PDU SN: 3263, Window 36.0 used
+Timeout PDU SN: 3756, Window 35.9 used
+Timeout PDU SN: 153, Window 35.7 used
+Timeout PDU SN: 639, Window 35.9 used
+Timeout PDU SN: 1132, Window 35.8 used
+Timeout PDU SN: 1623, Window 35.8 used
+Timeout PDU SN: 2111, Window 36.0 used
+Timeout PDU SN: 2602, Window 35.9 used
+Timeout PDU SN: 3093, Window 36.0 used
+Timeout PDU SN: 3580, Window 36.0 used
+Timeout PDU SN: 4079, Window 35.7 used
+Timeout PDU SN: 470, Window 35.9 used
+Timeout PDU SN: 961, Window 35.8 used
+Timeout PDU SN: 1450, Window 35.9 used
+Timeout PDU SN: 1941, Window 35.9 used
+Timeout PDU SN: 2428, Window 36.0 used
+Timeout PDU SN: 2920, Window 36.0 used
+Timeout PDU SN: 3411, Window 36.0 used
+Timeout PDU SN: 3905, Window 35.7 used
+Timeout PDU SN: 302, Window 35.6 used
+Timeout PDU SN: 789, Window 35.9 used
+Timeout PDU SN: 1277, Window 35.9 used
+Timeout PDU SN: 1768, Window 35.9 used
+Timeout PDU SN: 2259, Window 35.9 used
+Timeout PDU SN: 2749, Window 35.9 used
+Timeout PDU SN: 3237, Window 36.0 used
+Timeout PDU SN: 3729, Window 36.1 used
+Timeout PDU SN: 127, Window 35.9 used
+Timeout PDU SN: 617, Window 35.9 used
+Timeout PDU SN: 1106, Window 35.9 used
+Timeout PDU SN: 1596, Window 36.0 used
+Timeout PDU SN: 2085, Window 36.1 used
+Timeout PDU SN: 2582, Window 35.9 used
+Timeout PDU SN: 3072, Window 35.9 used
+Timeout PDU SN: 3562, Window 35.8 used
+Timeout PDU SN: 4052, Window 35.9 used
+Timeout PDU SN: 444, Window 36.0 used
+Timeout PDU SN: 934, Window 36.0 used
+Timeout PDU SN: 1425, Window 36.0 used
+Timeout PDU SN: 1920, Window 35.8 used
+Timeout PDU SN: 2406, Window 36.0 used
+Timeout PDU SN: 2899, Window 35.9 used
+Timeout PDU SN: 3391, Window 35.9 used
+Timeout PDU SN: 3878, Window 36.2 used
+Timeout PDU SN: 274, Window 36.2 used
+Timeout PDU SN: 773, Window 35.9 used
+Timeout PDU SN: 1264, Window 35.9 used
+Timeout PDU SN: 1754, Window 35.9 used
+Size 9542, 698 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 695x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2244, Window 36.0 used
+Timeout PDU SN: 2733, Window 36.1 used
+Timeout PDU SN: 3232, Window 35.8 used
+Timeout PDU SN: 3719, Window 36.0 used
+Timeout PDU SN: 114, Window 35.9 used
+Timeout PDU SN: 604, Window 36.0 used
+Timeout PDU SN: 1095, Window 36.0 used
+Timeout PDU SN: 1589, Window 35.8 used
+Timeout PDU SN: 2076, Window 36.0 used
+Timeout PDU SN: 2568, Window 35.9 used
+Timeout PDU SN: 3057, Window 36.0 used
+Timeout PDU SN: 3548, Window 36.0 used
+Timeout PDU SN: 4044, Window 35.8 used
+Timeout PDU SN: 432, Window 36.0 used
+Timeout PDU SN: 927, Window 35.9 used
+Timeout PDU SN: 1413, Window 36.1 used
+Timeout PDU SN: 1906, Window 36.1 used
+Timeout PDU SN: 2397, Window 36.0 used
+Timeout PDU SN: 2890, Window 35.9 used
+Timeout PDU SN: 3383, Window 35.8 used
+Timeout PDU SN: 3869, Window 36.0 used
+Timeout PDU SN: 267, Window 35.8 used
+Timeout PDU SN: 756, Window 35.9 used
+Timeout PDU SN: 1245, Window 35.9 used
+Timeout PDU SN: 1736, Window 35.9 used
+Timeout PDU SN: 2223, Window 36.0 used
+Timeout PDU SN: 2715, Window 35.9 used
+Timeout PDU SN: 3207, Window 35.9 used
+Timeout PDU SN: 3694, Window 36.2 used
+Timeout PDU SN: 91, Window 36.0 used
+Timeout PDU SN: 583, Window 36.0 used
+Timeout PDU SN: 1568, Window 17.9 used
+Timeout PDU SN: 1570, Window 35.7 used
+Timeout PDU SN: 2058, Window 35.9 used
+Timeout PDU SN: 2543, Window 36.0 used
+Timeout PDU SN: 3038, Window 35.9 used
+Timeout PDU SN: 3532, Window 35.7 used
+Timeout PDU SN: 4019, Window 35.9 used
+Timeout PDU SN: 417, Window 35.7 used
+Timeout PDU SN: 902, Window 36.0 used
+Timeout PDU SN: 1397, Window 35.9 used
+Timeout PDU SN: 1883, Window 36.1 used
+Timeout PDU SN: 2375, Window 36.1 used
+Timeout PDU SN: 2871, Window 35.9 used
+Timeout PDU SN: 3361, Window 35.9 used
+Timeout PDU SN: 3851, Window 35.9 used
+Timeout PDU SN: 244, Window 36.0 used
+Timeout PDU SN: 734, Window 36.0 used
+Timeout PDU SN: 1225, Window 36.0 used
+Timeout PDU SN: 1716, Window 36.0 used
+Size 9638, 602 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 599x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2210, Window 35.8 used
+Timeout PDU SN: 2700, Window 35.9 used
+Timeout PDU SN: 3189, Window 35.9 used
+Timeout PDU SN: 3678, Window 36.0 used
+Timeout PDU SN: 72, Window 36.1 used
+Timeout PDU SN: 569, Window 35.8 used
+Timeout PDU SN: 1060, Window 35.9 used
+Timeout PDU SN: 1548, Window 36.0 used
+Timeout PDU SN: 2039, Window 36.0 used
+Timeout PDU SN: 2529, Window 36.0 used
+Timeout PDU SN: 3024, Window 35.8 used
+Timeout PDU SN: 3511, Window 36.0 used
+Timeout PDU SN: 4003, Window 35.9 used
+Timeout PDU SN: 399, Window 35.9 used
+Timeout PDU SN: 886, Window 36.0 used
+Timeout PDU SN: 1378, Window 36.0 used
+Timeout PDU SN: 1868, Window 36.0 used
+Timeout PDU SN: 2362, Window 35.9 used
+Timeout PDU SN: 2850, Window 36.0 used
+Timeout PDU SN: 3343, Window 35.9 used
+Timeout PDU SN: 3837, Window 35.7 used
+Timeout PDU SN: 226, Window 36.0 used
+Timeout PDU SN: 720, Window 35.8 used
+Timeout PDU SN: 1207, Window 36.0 used
+Timeout PDU SN: 1700, Window 35.9 used
+Timeout PDU SN: 2188, Window 36.0 used
+Timeout PDU SN: 2679, Window 36.0 used
+Timeout PDU SN: 3170, Window 36.0 used
+Timeout PDU SN: 3664, Window 35.9 used
+Timeout PDU SN: 58, Window 35.9 used
+Timeout PDU SN: 547, Window 36.0 used
+Timeout PDU SN: 1036, Window 36.0 used
+Timeout PDU SN: 1534, Window 35.7 used
+Timeout PDU SN: 2018, Window 36.0 used
+Timeout PDU SN: 2514, Window 35.8 used
+Timeout PDU SN: 3003, Window 35.9 used
+Timeout PDU SN: 3492, Window 35.9 used
+Timeout PDU SN: 3981, Window 35.9 used
+Timeout PDU SN: 375, Window 35.9 used
+Timeout PDU SN: 865, Window 36.0 used
+Timeout PDU SN: 1355, Window 36.0 used
+Timeout PDU SN: 1855, Window 35.6 used
+Timeout PDU SN: 2335, Window 36.0 used
+Timeout PDU SN: 2831, Window 35.8 used
+Timeout PDU SN: 3321, Window 35.9 used
+Timeout PDU SN: 3811, Window 36.0 used
+Timeout PDU SN: 204, Window 36.0 used
+Timeout PDU SN: 697, Window 35.9 used
+Timeout PDU SN: 1189, Window 35.8 used
+Timeout PDU SN: 1676, Window 36.0 used
+Size 9729, 511 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 508x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2171, Window 35.8 used
+Timeout PDU SN: 2660, Window 35.9 used
+Timeout PDU SN: 3148, Window 36.0 used
+Timeout PDU SN: 3638, Window 36.0 used
+Timeout PDU SN: 33, Window 36.0 used
+Timeout PDU SN: 528, Window 35.8 used
+Timeout PDU SN: 1015, Window 36.0 used
+Timeout PDU SN: 1507, Window 35.9 used
+Timeout PDU SN: 1999, Window 35.9 used
+Timeout PDU SN: 2486, Window 36.0 used
+Timeout PDU SN: 2978, Window 36.0 used
+Timeout PDU SN: 3469, Window 36.0 used
+Timeout PDU SN: 3964, Window 35.8 used
+Timeout PDU SN: 357, Window 35.9 used
+Timeout PDU SN: 847, Window 35.9 used
+Timeout PDU SN: 1341, Window 35.7 used
+Timeout PDU SN: 1826, Window 36.0 used
+Timeout PDU SN: 2322, Window 35.8 used
+Timeout PDU SN: 2807, Window 36.0 used
+Timeout PDU SN: 3300, Window 35.9 used
+Timeout PDU SN: 3791, Window 35.9 used
+Timeout PDU SN: 186, Window 35.9 used
+Timeout PDU SN: 681, Window 35.7 used
+Timeout PDU SN: 1165, Window 36.0 used
+Timeout PDU SN: 1660, Window 35.8 used
+Timeout PDU SN: 2147, Window 36.0 used
+Timeout PDU SN: 2639, Window 35.9 used
+Timeout PDU SN: 3134, Window 35.7 used
+Timeout PDU SN: 3618, Window 36.0 used
+Timeout PDU SN: 14, Window 36.0 used
+Timeout PDU SN: 504, Window 36.0 used
+Timeout PDU SN: 999, Window 35.8 used
+Timeout PDU SN: 1486, Window 36.0 used
+Timeout PDU SN: 1979, Window 35.9 used
+Timeout PDU SN: 2476, Window 35.6 used
+Timeout PDU SN: 2959, Window 36.0 used
+Timeout PDU SN: 3454, Window 35.9 used
+Timeout PDU SN: 3942, Window 36.1 used
+Timeout PDU SN: 339, Window 36.0 used
+Timeout PDU SN: 832, Window 35.9 used
+Timeout PDU SN: 1322, Window 35.9 used
+Timeout PDU SN: 1812, Window 36.0 used
+Timeout PDU SN: 2302, Window 36.2 used
+Timeout PDU SN: 2803, Window 35.7 used
+Timeout PDU SN: 3287, Window 36.1 used
+Timeout PDU SN: 3782, Window 35.9 used
+Timeout PDU SN: 176, Window 36.0 used
+Timeout PDU SN: 668, Window 35.9 used
+Timeout PDU SN: 1157, Window 36.1 used
+Timeout PDU SN: 1647, Window 36.2 used
+Size 9829, 411 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 408x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2143, Window 36.1 used
+Timeout PDU SN: 2639, Window 35.9 used
+Timeout PDU SN: 3127, Window 36.0 used
+Timeout PDU SN: 3618, Window 36.0 used
+Timeout PDU SN: 19, Window 35.7 used
+Timeout PDU SN: 502, Window 36.0 used
+Timeout PDU SN: 999, Window 35.9 used
+Timeout PDU SN: 1488, Window 36.1 used
+Timeout PDU SN: 1978, Window 36.2 used
+Timeout PDU SN: 2474, Window 36.0 used
+Timeout PDU SN: 2969, Window 35.8 used
+Timeout PDU SN: 3455, Window 36.0 used
+Timeout PDU SN: 3944, Window 36.2 used
+Timeout PDU SN: 341, Window 36.1 used
+Timeout PDU SN: 834, Window 36.1 used
+Timeout PDU SN: 1329, Window 36.0 used
+Timeout PDU SN: 1824, Window 35.8 used
+Timeout PDU SN: 2314, Window 35.9 used
+Timeout PDU SN: 2803, Window 35.9 used
+Timeout PDU SN: 3292, Window 36.1 used
+Timeout PDU SN: 3784, Window 36.0 used
+Timeout PDU SN: 185, Window 36.0 used
+Timeout PDU SN: 673, Window 36.0 used
+Timeout PDU SN: 1166, Window 35.9 used
+Timeout PDU SN: 1659, Window 35.8 used
+Timeout PDU SN: 2146, Window 36.0 used
+Timeout PDU SN: 2638, Window 35.9 used
+Timeout PDU SN: 3127, Window 35.9 used
+Timeout PDU SN: 3619, Window 35.9 used
+Timeout PDU SN: 12, Window 35.9 used
+Timeout PDU SN: 502, Window 35.9 used
+Timeout PDU SN: 991, Window 36.0 used
+Timeout PDU SN: 1483, Window 35.9 used
+Timeout PDU SN: 1978, Window 35.9 used
+Timeout PDU SN: 2957, Window 18.0 used
+Timeout PDU SN: 2960, Window 35.8 used
+Timeout PDU SN: 3452, Window 35.6 used
+Timeout PDU SN: 3936, Window 35.9 used
+Timeout PDU SN: 336, Window 35.6 used
+Timeout PDU SN: 819, Window 36.0 used
+Timeout PDU SN: 1310, Window 36.0 used
+Timeout PDU SN: 1799, Window 36.0 used
+Timeout PDU SN: 2295, Window 35.9 used
+Timeout PDU SN: 2784, Window 35.9 used
+Timeout PDU SN: 3274, Window 36.0 used
+Timeout PDU SN: 3772, Window 35.6 used
+Timeout PDU SN: 161, Window 35.9 used
+Timeout PDU SN: 655, Window 35.8 used
+Timeout PDU SN: 1139, Window 36.0 used
+Size 9565, 675 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 672x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 1632, Window 36.0 used
+Timeout PDU SN: 2131, Window 35.5 used
+Timeout PDU SN: 2612, Window 35.9 used
+Timeout PDU SN: 3111, Window 35.6 used
+Timeout PDU SN: 3592, Window 36.0 used
+Timeout PDU SN: 4087, Window 35.8 used
+Timeout PDU SN: 478, Window 36.0 used
+Timeout PDU SN: 971, Window 35.9 used
+Timeout PDU SN: 1460, Window 36.1 used
+Timeout PDU SN: 1950, Window 36.2 used
+Timeout PDU SN: 2445, Window 35.9 used
+Timeout PDU SN: 2945, Window 35.6 used
+Timeout PDU SN: 3427, Window 35.9 used
+Timeout PDU SN: 3922, Window 35.7 used
+Timeout PDU SN: 311, Window 36.0 used
+Timeout PDU SN: 805, Window 35.8 used
+Timeout PDU SN: 1294, Window 35.9 used
+Timeout PDU SN: 1785, Window 35.9 used
+Timeout PDU SN: 2274, Window 36.0 used
+Timeout PDU SN: 2764, Window 36.0 used
+Timeout PDU SN: 3261, Window 35.7 used
+Timeout PDU SN: 3745, Window 36.0 used
+Timeout PDU SN: 144, Window 35.9 used
+Timeout PDU SN: 631, Window 36.0 used
+Timeout PDU SN: 1124, Window 35.9 used
+Timeout PDU SN: 1613, Window 36.0 used
+Timeout PDU SN: 2102, Window 36.0 used
+Timeout PDU SN: 2598, Window 35.8 used
+Timeout PDU SN: 3087, Window 35.9 used
+Timeout PDU SN: 3578, Window 36.0 used
+Timeout PDU SN: 4074, Window 35.6 used
+Timeout PDU SN: 463, Window 35.9 used
+Timeout PDU SN: 957, Window 35.7 used
+Timeout PDU SN: 1442, Window 36.0 used
+Timeout PDU SN: 1937, Window 35.7 used
+Timeout PDU SN: 2427, Window 31.4 used
+Timeout PDU SN: 2917, Window 13.5 used
+Size 10236, 4 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 3551, Window 17.6 used
+Size 9703, 537 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 534x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 3561, Window 35.3 used
+Timeout PDU SN: 172, Window 35.9 used
+Timeout PDU SN: 904, Window 36.0 used
+Timeout PDU SN: 1640, Window 36.0 used
+Timeout PDU SN: 2376, Window 36.1 used
+Timeout PDU SN: 3112, Window 36.0 used
+Timeout PDU SN: 3851, Window 35.9 used
+Timeout PDU SN: 488, Window 36.0 used
+Timeout PDU SN: 1224, Window 36.0 used
+Timeout PDU SN: 1964, Window 36.0 used
+Timeout PDU SN: 2696, Window 36.1 used
+Timeout PDU SN: 3435, Window 35.9 used
+Timeout PDU SN: 76, Window 36.0 used
+Timeout PDU SN: 809, Window 36.1 used
+Timeout PDU SN: 1549, Window 36.1 used
+Timeout PDU SN: 2285, Window 36.1 used
+Timeout PDU SN: 3024, Window 36.0 used
+Timeout PDU SN: 3765, Window 35.9 used
+Timeout PDU SN: 400, Window 35.9 used
+Timeout PDU SN: 1137, Window 36.0 used
+Timeout PDU SN: 1869, Window 36.0 used
+Timeout PDU SN: 2609, Window 36.0 used
+Timeout PDU SN: 3341, Window 36.0 used
+Timeout PDU SN: 4081, Window 35.9 used
+Timeout PDU SN: 716, Window 36.0 used
+Timeout PDU SN: 1454, Window 36.0 used
+Timeout PDU SN: 2197, Window 35.9 used
+Timeout PDU SN: 2926, Window 36.0 used
+Timeout PDU SN: 3666, Window 35.9 used
+Timeout PDU SN: 302, Window 36.0 used
+Timeout PDU SN: 1038, Window 36.0 used
+Timeout PDU SN: 1782, Window 35.7 used
+Timeout PDU SN: 2510, Window 35.9 used
+Timeout PDU SN: 3243, Window 36.0 used
+Timeout PDU SN: 3979, Window 36.0 used
+Timeout PDU SN: 619, Window 36.1 used
+Timeout PDU SN: 1355, Window 36.0 used
+Timeout PDU SN: 2095, Window 35.9 used
+Timeout PDU SN: 2826, Window 36.0 used
+Timeout PDU SN: 3563, Window 36.1 used
+Timeout PDU SN: 207, Window 36.0 used
+Timeout PDU SN: 943, Window 36.0 used
+Timeout PDU SN: 1679, Window 36.1 used
+Timeout PDU SN: 2415, Window 36.0 used
+Timeout PDU SN: 3155, Window 35.9 used
+Timeout PDU SN: 3886, Window 36.1 used
+Timeout PDU SN: 527, Window 36.0 used
+Timeout PDU SN: 1267, Window 35.9 used
+Timeout PDU SN: 1999, Window 36.0 used
+Timeout PDU SN: 2736, Window 36.0 used
+Size 9781, 459 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 458x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 3471, Window 35.9 used
+Timeout PDU SN: 112, Window 35.9 used
+Timeout PDU SN: 844, Window 36.1 used
+Timeout PDU SN: 1580, Window 36.0 used
+Timeout PDU SN: 2320, Window 36.0 used
+Timeout PDU SN: 3049, Window 36.1 used
+Timeout PDU SN: 3792, Window 36.0 used
+Timeout PDU SN: 432, Window 36.0 used
+Timeout PDU SN: 1169, Window 36.0 used
+Timeout PDU SN: 1908, Window 35.9 used
+Timeout PDU SN: 2641, Window 36.0 used
+Timeout PDU SN: 3376, Window 36.1 used
+Timeout PDU SN: 17, Window 36.1 used
+Timeout PDU SN: 755, Window 36.0 used
+Timeout PDU SN: 1493, Window 36.0 used
+Timeout PDU SN: 2229, Window 36.0 used
+Timeout PDU SN: 2965, Window 36.1 used
+Timeout PDU SN: 3701, Window 36.1 used
+Timeout PDU SN: 345, Window 36.0 used
+Timeout PDU SN: 1081, Window 36.0 used
+Timeout PDU SN: 1817, Window 36.1 used
+Timeout PDU SN: 2553, Window 36.0 used
+Timeout PDU SN: 3293, Window 36.0 used
+Timeout PDU SN: 4025, Window 36.0 used
+Timeout PDU SN: 669, Window 36.0 used
+Timeout PDU SN: 1401, Window 36.0 used
+Timeout PDU SN: 2141, Window 35.9 used
+Timeout PDU SN: 2873, Window 36.1 used
+Timeout PDU SN: 3609, Window 36.0 used
+Timeout PDU SN: 253, Window 36.0 used
+Timeout PDU SN: 986, Window 36.0 used
+Timeout PDU SN: 1724, Window 36.0 used
+Timeout PDU SN: 2458, Window 36.1 used
+Timeout PDU SN: 3197, Window 36.0 used
+Timeout PDU SN: 3934, Window 36.1 used
+Timeout PDU SN: 574, Window 36.0 used
+Timeout PDU SN: 1313, Window 35.9 used
+Timeout PDU SN: 2050, Window 36.0 used
+Timeout PDU SN: 2782, Window 36.1 used
+Timeout PDU SN: 3522, Window 35.9 used
+Timeout PDU SN: 162, Window 35.9 used
+Timeout PDU SN: 894, Window 36.0 used
+Timeout PDU SN: 1630, Window 36.0 used
+Timeout PDU SN: 2366, Window 36.1 used
+Timeout PDU SN: 3102, Window 36.1 used
+Timeout PDU SN: 3847, Window 35.9 used
+Timeout PDU SN: 482, Window 36.0 used
+Timeout PDU SN: 1226, Window 35.9 used
+Timeout PDU SN: 1955, Window 36.0 used
+Size 9509, 731 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 728x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2694, Window 35.9 used
+Timeout PDU SN: 3427, Window 36.1 used
+Timeout PDU SN: 67, Window 36.1 used
+Timeout PDU SN: 807, Window 34.6 used
+Timeout PDU SN: 1543, Window 33.6 used
+Timeout PDU SN: 2220, Window 35.1 used
+Timeout PDU SN: 3014, Window 36.0 used
+Timeout PDU SN: 3751, Window 36.0 used
+Timeout PDU SN: 391, Window 36.1 used
+Timeout PDU SN: 1131, Window 36.0 used
+Timeout PDU SN: 1867, Window 36.0 used
+Timeout PDU SN: 2603, Window 36.0 used
+Timeout PDU SN: 3339, Window 36.1 used
+Timeout PDU SN: 4075, Window 33.7 used
+Timeout PDU SN: 718, Window 33.6 used
+Timeout PDU SN: 1455, Window 36.0 used
+Timeout PDU SN: 2195, Window 35.8 used
+Timeout PDU SN: 2927, Window 36.0 used
+Timeout PDU SN: 3664, Window 36.0 used
+Timeout PDU SN: 303, Window 36.1 used
+Timeout PDU SN: 1039, Window 36.1 used
+Timeout PDU SN: 1778, Window 36.1 used
+Timeout PDU SN: 2515, Window 36.0 used
+Timeout PDU SN: 3255, Window 35.9 used
+Timeout PDU SN: 3987, Window 36.0 used
+Timeout PDU SN: 627, Window 36.0 used
+Timeout PDU SN: 1360, Window 36.1 used
+Timeout PDU SN: 2096, Window 36.1 used
+Timeout PDU SN: 2839, Window 36.0 used
+Timeout PDU SN: 3576, Window 35.9 used
+Timeout PDU SN: 215, Window 35.9 used
+Timeout PDU SN: 948, Window 36.0 used
+Timeout PDU SN: 1683, Window 36.0 used
+Timeout PDU SN: 2420, Window 35.9 used
+Timeout PDU SN: 3156, Window 36.0 used
+Timeout PDU SN: 3888, Window 36.2 used
+Timeout PDU SN: 532, Window 36.0 used
+Timeout PDU SN: 1272, Window 35.9 used
+Timeout PDU SN: 2004, Window 36.1 used
+Timeout PDU SN: 2740, Window 36.0 used
+Timeout PDU SN: 3480, Window 33.5 used
+Timeout PDU SN: 117, Window 33.6 used
+Timeout PDU SN: 753, Window 36.2 used
+Timeout PDU SN: 1592, Window 36.1 used
+Timeout PDU SN: 2332, Window 35.9 used
+Timeout PDU SN: 3068, Window 35.9 used
+Timeout PDU SN: 3801, Window 36.0 used
+Timeout PDU SN: 441, Window 34.7 used
+Timeout PDU SN: 1177, Window 34.7 used
+Timeout PDU SN: 1912, Window 36.0 used
+Size 9610, 630 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 629x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2649, Window 36.0 used
+Timeout PDU SN: 3385, Window 36.0 used
+Timeout PDU SN: 25, Window 36.0 used
+Timeout PDU SN: 761, Window 36.0 used
+Timeout PDU SN: 1498, Window 36.0 used
+Timeout PDU SN: 2233, Window 36.0 used
+Timeout PDU SN: 2971, Window 34.7 used
+Timeout PDU SN: 3706, Window 34.7 used
+Timeout PDU SN: 346, Window 36.0 used
+Timeout PDU SN: 1082, Window 36.0 used
+Timeout PDU SN: 1822, Window 35.9 used
+Timeout PDU SN: 2554, Window 36.1 used
+Timeout PDU SN: 3290, Window 36.2 used
+Timeout PDU SN: 4030, Window 36.1 used
+Timeout PDU SN: 672, Window 36.0 used
+Timeout PDU SN: 1410, Window 36.0 used
+Timeout PDU SN: 2146, Window 36.0 used
+Timeout PDU SN: 2882, Window 36.0 used
+Timeout PDU SN: 3618, Window 36.1 used
+Timeout PDU SN: 258, Window 36.1 used
+Timeout PDU SN: 998, Window 36.0 used
+Timeout PDU SN: 1734, Window 36.0 used
+Timeout PDU SN: 2470, Window 36.0 used
+Timeout PDU SN: 3206, Window 36.0 used
+Timeout PDU SN: 3941, Window 36.0 used
+Timeout PDU SN: 582, Window 36.1 used
+Timeout PDU SN: 1318, Window 36.0 used
+Timeout PDU SN: 2058, Window 35.9 used
+Timeout PDU SN: 2790, Window 36.0 used
+Timeout PDU SN: 3526, Window 36.0 used
+Timeout PDU SN: 166, Window 36.1 used
+Timeout PDU SN: 903, Window 36.0 used
+Timeout PDU SN: 1642, Window 36.0 used
+Timeout PDU SN: 2375, Window 36.0 used
+Timeout PDU SN: 3114, Window 35.9 used
+Timeout PDU SN: 3847, Window 36.0 used
+Timeout PDU SN: 487, Window 36.0 used
+Timeout PDU SN: 1223, Window 36.0 used
+Timeout PDU SN: 1958, Window 36.0 used
+Timeout PDU SN: 2695, Window 36.0 used
+Timeout PDU SN: 3431, Window 36.1 used
+Timeout PDU SN: 71, Window 36.1 used
+Timeout PDU SN: 811, Window 36.0 used
+Timeout PDU SN: 1547, Window 36.0 used
+Timeout PDU SN: 2283, Window 36.0 used
+Timeout PDU SN: 3019, Window 36.1 used
+Timeout PDU SN: 3755, Window 36.0 used
+Timeout PDU SN: 399, Window 36.0 used
+Timeout PDU SN: 1131, Window 36.1 used
+Timeout PDU SN: 1871, Window 36.0 used
+Size 9708, 532 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 529x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2607, Window 36.0 used
+Timeout PDU SN: 3340, Window 36.1 used
+Timeout PDU SN: 4080, Window 36.1 used
+Timeout PDU SN: 720, Window 36.1 used
+Timeout PDU SN: 1459, Window 36.1 used
+Timeout PDU SN: 2196, Window 36.1 used
+Timeout PDU SN: 2935, Window 36.0 used
+Timeout PDU SN: 3670, Window 36.0 used
+Timeout PDU SN: 311, Window 36.0 used
+Timeout PDU SN: 1048, Window 36.1 used
+Timeout PDU SN: 1784, Window 36.2 used
+Timeout PDU SN: 2523, Window 36.2 used
+Timeout PDU SN: 3263, Window 36.1 used
+Timeout PDU SN: 4003, Window 36.1 used
+Timeout PDU SN: 642, Window 36.0 used
+Timeout PDU SN: 1382, Window 36.0 used
+Timeout PDU SN: 2111, Window 36.2 used
+Timeout PDU SN: 2855, Window 36.2 used
+Timeout PDU SN: 3595, Window 36.3 used
+Timeout PDU SN: 238, Window 36.2 used
+Timeout PDU SN: 982, Window 36.0 used
+Timeout PDU SN: 1718, Window 36.0 used
+Timeout PDU SN: 2454, Window 36.0 used
+Timeout PDU SN: 3190, Window 36.1 used
+Timeout PDU SN: 3926, Window 36.2 used
+Timeout PDU SN: 569, Window 36.2 used
+Timeout PDU SN: 1309, Window 36.1 used
+Timeout PDU SN: 2047, Window 36.0 used
+Timeout PDU SN: 2782, Window 36.1 used
+Timeout PDU SN: 3521, Window 36.1 used
+Timeout PDU SN: 162, Window 36.2 used
+Timeout PDU SN: 901, Window 36.1 used
+Timeout PDU SN: 1641, Window 36.1 used
+Timeout PDU SN: 2377, Window 36.2 used
+Timeout PDU SN: 3117, Window 36.1 used
+Timeout PDU SN: 3857, Window 36.0 used
+Timeout PDU SN: 497, Window 35.9 used
+Timeout PDU SN: 1233, Window 36.0 used
+Timeout PDU SN: 1966, Window 36.2 used
+Timeout PDU SN: 2705, Window 36.1 used
+Timeout PDU SN: 3444, Window 36.1 used
+Timeout PDU SN: 85, Window 36.1 used
+Timeout PDU SN: 825, Window 36.0 used
+Timeout PDU SN: 1561, Window 36.0 used
+Timeout PDU SN: 2297, Window 36.1 used
+Timeout PDU SN: 3033, Window 36.1 used
+Timeout PDU SN: 3773, Window 36.1 used
+Timeout PDU SN: 413, Window 36.2 used
+Timeout PDU SN: 1152, Window 36.1 used
+Timeout PDU SN: 1892, Window 36.0 used
+Size 9837, 403 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::pdcp_entity::generate_report()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 399x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2628, Window 36.0 used
+Timeout PDU SN: 3364, Window 36.0 used
+Timeout PDU SN: 4, Window 36.1 used
+Timeout PDU SN: 740, Window 36.2 used
+Timeout PDU SN: 1480, Window 36.1 used
+Timeout PDU SN: 2220, Window 36.1 used
+Timeout PDU SN: 2960, Window 36.0 used
+Timeout PDU SN: 3696, Window 36.0 used
+Timeout PDU SN: 336, Window 36.1 used
+Timeout PDU SN: 1072, Window 36.2 used
+Timeout PDU SN: 1811, Window 36.1 used
+Timeout PDU SN: 2551, Window 36.1 used
+Timeout PDU SN: 4027, Window 18.0 used
+Timeout PDU SN: 4031, Window 35.8 used
+Timeout PDU SN: 667, Window 36.0 used
+Timeout PDU SN: 1400, Window 36.0 used
+Timeout PDU SN: 2140, Window 35.9 used
+Timeout PDU SN: 2872, Window 36.0 used
+Timeout PDU SN: 3608, Window 36.1 used
+Timeout PDU SN: 248, Window 36.1 used
+Timeout PDU SN: 988, Window 35.9 used
+Timeout PDU SN: 1724, Window 35.9 used
+Timeout PDU SN: 2455, Window 36.0 used
+Timeout PDU SN: 3192, Window 36.0 used
+Timeout PDU SN: 3928, Window 35.9 used
+Timeout PDU SN: 569, Window 36.0 used
+Timeout PDU SN: 1301, Window 36.2 used
+Timeout PDU SN: 2041, Window 36.0 used
+Timeout PDU SN: 2781, Window 35.9 used
+Timeout PDU SN: 3513, Window 36.0 used
+Timeout PDU SN: 153, Window 36.0 used
+Timeout PDU SN: 890, Window 35.9 used
+Timeout PDU SN: 1625, Window 35.9 used
+Timeout PDU SN: 2358, Window 36.1 used
+Timeout PDU SN: 3094, Window 36.1 used
+Timeout PDU SN: 3832, Window 36.0 used
+Timeout PDU SN: 474, Window 36.0 used
+Timeout PDU SN: 1210, Window 36.0 used
+Timeout PDU SN: 1946, Window 36.0 used
+Timeout PDU SN: 2682, Window 36.0 used
+Timeout PDU SN: 3414, Window 36.1 used
+Timeout PDU SN: 58, Window 36.0 used
+Timeout PDU SN: 794, Window 36.1 used
+Timeout PDU SN: 1530, Window 36.1 used
+Timeout PDU SN: 2270, Window 35.9 used
+Timeout PDU SN: 3006, Window 36.0 used
+Timeout PDU SN: 3739, Window 36.1 used
+Timeout PDU SN: 382, Window 36.0 used
+Timeout PDU SN: 1118, Window 25.2 used
+Size 10085, 155 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 152x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 1854, Window 7.4 used
+Timeout PDU SN: 2151, Window 0.1 used
+Size 10236, 4 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2378, Window 17.9 used
+Timeout PDU SN: 2387, Window 35.7 used
+Timeout PDU SN: 3355, Window 36.0 used
+Timeout PDU SN: 230, Window 36.2 used
+Timeout PDU SN: 1222, Window 35.9 used
+Timeout PDU SN: 2207, Window 35.9 used
+Timeout PDU SN: 3181, Window 36.0 used
+Timeout PDU SN: 65, Window 36.0 used
+Timeout PDU SN: 1046, Window 36.1 used
+Timeout PDU SN: 2029, Window 36.0 used
+Timeout PDU SN: 3014, Window 35.9 used
+Timeout PDU SN: 3994, Window 35.9 used
+Timeout PDU SN: 877, Window 36.0 used
+Timeout PDU SN: 1857, Window 35.9 used
+Timeout PDU SN: 2841, Window 36.0 used
+Timeout PDU SN: 3817, Window 36.2 used
+Timeout PDU SN: 713, Window 35.9 used
+Timeout PDU SN: 1692, Window 36.0 used
+Timeout PDU SN: 2671, Window 36.1 used
+Timeout PDU SN: 541, Window 18.0 used
+Timeout PDU SN: 546, Window 35.9 used
+Timeout PDU SN: 1523, Window 36.0 used
+Timeout PDU SN: 2503, Window 36.0 used
+Timeout PDU SN: 3485, Window 36.1 used
+Timeout PDU SN: 375, Window 36.2 used
+Timeout PDU SN: 1357, Window 36.1 used
+Timeout PDU SN: 2343, Window 36.0 used
+Timeout PDU SN: 3331, Window 35.9 used
+Timeout PDU SN: 209, Window 36.0 used
+Timeout PDU SN: 1193, Window 36.0 used
+Timeout PDU SN: 2173, Window 36.0 used
+Timeout PDU SN: 3155, Window 36.1 used
+Timeout PDU SN: 45, Window 36.0 used
+Timeout PDU SN: 1026, Window 35.9 used
+Timeout PDU SN: 2009, Window 35.9 used
+Timeout PDU SN: 2984, Window 36.1 used
+Size 9627, 613 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 610x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 3967, Window 34.8 used
+Timeout PDU SN: 863, Window 34.6 used
+Timeout PDU SN: 1838, Window 36.0 used
+Timeout PDU SN: 2821, Window 36.0 used
+Timeout PDU SN: 3804, Window 36.0 used
+Timeout PDU SN: 686, Window 36.0 used
+Timeout PDU SN: 1672, Window 36.0 used
+Timeout PDU SN: 2648, Window 34.4 used
+Timeout PDU SN: 3632, Window 34.0 used
+Timeout PDU SN: 515, Window 36.0 used
+Timeout PDU SN: 1499, Window 36.1 used
+Timeout PDU SN: 2482, Window 36.0 used
+Timeout PDU SN: 3465, Window 35.9 used
+Timeout PDU SN: 352, Window 35.9 used
+Timeout PDU SN: 1322, Window 36.0 used
+Timeout PDU SN: 2310, Window 36.0 used
+Timeout PDU SN: 3289, Window 34.3 used
+Timeout PDU SN: 177, Window 34.2 used
+Timeout PDU SN: 1161, Window 36.0 used
+Timeout PDU SN: 2135, Window 36.1 used
+Timeout PDU SN: 3126, Window 36.0 used
+Timeout PDU SN: 5, Window 36.1 used
+Timeout PDU SN: 990, Window 36.0 used
+Timeout PDU SN: 1979, Window 35.9 used
+Timeout PDU SN: 2954, Window 36.1 used
+Timeout PDU SN: 3936, Window 36.2 used
+Timeout PDU SN: 831, Window 36.2 used
+Timeout PDU SN: 1812, Window 36.1 used
+Timeout PDU SN: 2798, Window 36.0 used
+Timeout PDU SN: 3786, Window 35.9 used
+Timeout PDU SN: 665, Window 36.0 used
+Timeout PDU SN: 1648, Window 36.0 used
+Timeout PDU SN: 2628, Window 36.0 used
+Timeout PDU SN: 3608, Window 36.1 used
+Timeout PDU SN: 500, Window 36.0 used
+Timeout PDU SN: 1481, Window 36.0 used
+Timeout PDU SN: 2465, Window 35.9 used
+Timeout PDU SN: 3449, Window 36.0 used
+Timeout PDU SN: 327, Window 36.1 used
+Timeout PDU SN: 1317, Window 35.8 used
+Timeout PDU SN: 2292, Window 36.1 used
+Timeout PDU SN: 3275, Window 36.0 used
+Timeout PDU SN: 169, Window 35.9 used
+Timeout PDU SN: 1141, Window 36.1 used
+Timeout PDU SN: 2126, Window 36.1 used
+Timeout PDU SN: 3109, Window 36.0 used
+Timeout PDU SN: 4092, Window 36.1 used
+Timeout PDU SN: 980, Window 36.1 used
+Timeout PDU SN: 1962, Window 36.0 used
+Timeout PDU SN: 2945, Window 36.0 used
+Size 9706, 534 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 531x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 3925, Window 36.0 used
+Timeout PDU SN: 809, Window 36.1 used
+Timeout PDU SN: 1795, Window 36.1 used
+Timeout PDU SN: 2779, Window 36.0 used
+Timeout PDU SN: 3762, Window 36.1 used
+Timeout PDU SN: 648, Window 36.0 used
+Timeout PDU SN: 1631, Window 35.9 used
+Timeout PDU SN: 2614, Window 35.9 used
+Timeout PDU SN: 3588, Window 36.1 used
+Timeout PDU SN: 476, Window 36.0 used
+Timeout PDU SN: 1456, Window 36.1 used
+Timeout PDU SN: 2437, Window 36.1 used
+Timeout PDU SN: 3431, Window 35.9 used
+Timeout PDU SN: 309, Window 36.0 used
+Timeout PDU SN: 1292, Window 36.1 used
+Timeout PDU SN: 2274, Window 36.2 used
+Timeout PDU SN: 3258, Window 36.1 used
+Timeout PDU SN: 149, Window 36.1 used
+Timeout PDU SN: 1129, Window 36.1 used
+Timeout PDU SN: 2117, Window 36.0 used
+Timeout PDU SN: 3100, Window 36.0 used
+Timeout PDU SN: 4084, Window 36.0 used
+Timeout PDU SN: 965, Window 36.1 used
+Timeout PDU SN: 1952, Window 35.9 used
+Timeout PDU SN: 2932, Window 36.0 used
+Timeout PDU SN: 3910, Window 36.1 used
+Timeout PDU SN: 800, Window 36.0 used
+Timeout PDU SN: 1781, Window 36.0 used
+Timeout PDU SN: 2769, Window 35.8 used
+Timeout PDU SN: 3739, Window 36.0 used
+Timeout PDU SN: 631, Window 35.9 used
+Timeout PDU SN: 1606, Window 36.1 used
+Timeout PDU SN: 2589, Window 36.1 used
+Timeout PDU SN: 3581, Window 35.9 used
+Timeout PDU SN: 459, Window 36.0 used
+Timeout PDU SN: 1443, Window 36.2 used
+Timeout PDU SN: 2424, Window 36.1 used
+Timeout PDU SN: 3412, Window 36.0 used
+Timeout PDU SN: 300, Window 36.0 used
+Timeout PDU SN: 1285, Window 33.3 used
+Timeout PDU SN: 2262, Window 33.3 used
+Timeout PDU SN: 3250, Window 35.9 used
+Timeout PDU SN: 129, Window 36.1 used
+Timeout PDU SN: 1112, Window 36.2 used
+Timeout PDU SN: 2102, Window 35.9 used
+Timeout PDU SN: 3083, Window 35.9 used
+Timeout PDU SN: 4061, Window 36.0 used
+Timeout PDU SN: 944, Window 36.1 used
+Timeout PDU SN: 1927, Window 36.1 used
+Timeout PDU SN: 2914, Window 36.0 used
+Size 9816, 424 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::handle_data_pdu(uint8_t*, uint32_t)
+ - 424x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 3894, Window 36.0 used
+Timeout PDU SN: 781, Window 36.0 used
+Timeout PDU SN: 1761, Window 36.0 used
+Timeout PDU SN: 2742, Window 36.0 used
+Timeout PDU SN: 3730, Window 35.9 used
+Timeout PDU SN: 608, Window 36.0 used
+Timeout PDU SN: 1596, Window 36.0 used
+Timeout PDU SN: 2571, Window 36.2 used
+Timeout PDU SN: 3558, Window 36.0 used
+Timeout PDU SN: 453, Window 35.8 used
+Timeout PDU SN: 1425, Window 36.0 used
+Timeout PDU SN: 3388, Window 18.1 used
+Timeout PDU SN: 3399, Window 35.8 used
+Timeout PDU SN: 278, Window 36.0 used
+Timeout PDU SN: 2241, Window 18.0 used
+Timeout PDU SN: 2251, Window 35.8 used
+Timeout PDU SN: 3224, Window 35.9 used
+Timeout PDU SN: 102, Window 36.0 used
+Timeout PDU SN: 1087, Window 36.1 used
+Timeout PDU SN: 2071, Window 36.1 used
+Timeout PDU SN: 3052, Window 36.0 used
+Timeout PDU SN: 4035, Window 36.0 used
+Timeout PDU SN: 919, Window 36.0 used
+Timeout PDU SN: 1901, Window 36.0 used
+Timeout PDU SN: 2888, Window 35.9 used
+Timeout PDU SN: 3864, Window 36.1 used
+Timeout PDU SN: 756, Window 36.1 used
+Timeout PDU SN: 1738, Window 36.1 used
+Timeout PDU SN: 2722, Window 36.0 used
+Timeout PDU SN: 3704, Window 35.9 used
+Timeout PDU SN: 590, Window 35.9 used
+Timeout PDU SN: 1567, Window 36.0 used
+Timeout PDU SN: 2547, Window 36.1 used
+Timeout PDU SN: 3528, Window 36.1 used
+Timeout PDU SN: 425, Window 36.0 used
+Timeout PDU SN: 1399, Window 36.1 used
+Timeout PDU SN: 2385, Window 36.0 used
+Timeout PDU SN: 3374, Window 35.9 used
+Timeout PDU SN: 252, Window 36.0 used
+Timeout PDU SN: 1239, Window 35.9 used
+Timeout PDU SN: 2216, Window 36.1 used
+Timeout PDU SN: 3197, Window 36.1 used
+Timeout PDU SN: 90, Window 36.0 used
+Timeout PDU SN: 1068, Window 35.9 used
+Timeout PDU SN: 2053, Window 35.9 used
+Timeout PDU SN: 3034, Window 36.0 used
+Timeout PDU SN: 4014, Window 36.1 used
+Timeout PDU SN: 905, Window 36.1 used
+Timeout PDU SN: 1884, Window 36.1 used
+Size 9549, 691 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 690x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2867, Window 36.0 used
+Timeout PDU SN: 3858, Window 35.9 used
+Timeout PDU SN: 739, Window 36.0 used
+Timeout PDU SN: 1720, Window 36.1 used
+Timeout PDU SN: 2702, Window 36.1 used
+Timeout PDU SN: 3688, Window 36.1 used
+Timeout PDU SN: 574, Window 36.1 used
+Timeout PDU SN: 1567, Window 35.9 used
+Timeout PDU SN: 2541, Window 36.0 used
+Timeout PDU SN: 3527, Window 35.9 used
+Timeout PDU SN: 409, Window 36.0 used
+Timeout PDU SN: 1390, Window 36.2 used
+Timeout PDU SN: 2375, Window 36.1 used
+Timeout PDU SN: 3364, Window 36.0 used
+Timeout PDU SN: 245, Window 36.0 used
+Timeout PDU SN: 1235, Window 35.9 used
+Timeout PDU SN: 2205, Window 36.1 used
+Timeout PDU SN: 3193, Window 36.0 used
+Timeout PDU SN: 77, Window 36.0 used
+Timeout PDU SN: 1059, Window 36.1 used
+Timeout PDU SN: 2045, Window 36.2 used
+Timeout PDU SN: 3026, Window 36.1 used
+Timeout PDU SN: 4012, Window 36.0 used
+Timeout PDU SN: 904, Window 35.9 used
+Timeout PDU SN: 1879, Window 36.0 used
+Timeout PDU SN: 2863, Window 36.0 used
+Timeout PDU SN: 3843, Window 36.1 used
+Timeout PDU SN: 728, Window 36.2 used
+Timeout PDU SN: 1721, Window 36.0 used
+Timeout PDU SN: 2701, Window 36.0 used
+Timeout PDU SN: 3683, Window 36.0 used
+Timeout PDU SN: 573, Window 35.9 used
+Timeout PDU SN: 1549, Window 36.1 used
+Timeout PDU SN: 2532, Window 36.2 used
+Timeout PDU SN: 3524, Window 36.0 used
+Timeout PDU SN: 407, Window 36.0 used
+Timeout PDU SN: 1389, Window 36.1 used
+Timeout PDU SN: 2373, Window 36.0 used
+Timeout PDU SN: 3356, Window 36.0 used
+Timeout PDU SN: 238, Window 36.0 used
+Timeout PDU SN: 1225, Window 36.0 used
+Timeout PDU SN: 2201, Window 36.2 used
+Timeout PDU SN: 3193, Window 36.0 used
+Timeout PDU SN: 76, Window 36.0 used
+Timeout PDU SN: 1058, Window 36.0 used
+Timeout PDU SN: 2044, Window 36.0 used
+Timeout PDU SN: 3021, Window 36.1 used
+Timeout PDU SN: 4009, Window 36.0 used
+Timeout PDU SN: 893, Window 36.0 used
+Timeout PDU SN: 1874, Window 36.1 used
+Size 9665, 575 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 572x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2861, Window 35.9 used
+Timeout PDU SN: 3842, Window 35.9 used
+Timeout PDU SN: 724, Window 36.0 used
+Timeout PDU SN: 1704, Window 36.0 used
+Timeout PDU SN: 2685, Window 36.1 used
+Timeout PDU SN: 3672, Window 36.1 used
+Timeout PDU SN: 556, Window 36.1 used
+Timeout PDU SN: 1540, Window 36.0 used
+Timeout PDU SN: 2532, Window 35.8 used
+Timeout PDU SN: 3501, Window 36.0 used
+Timeout PDU SN: 394, Window 35.9 used
+Timeout PDU SN: 1368, Window 36.1 used
+Timeout PDU SN: 2351, Window 36.2 used
+Timeout PDU SN: 3341, Window 36.1 used
+Timeout PDU SN: 226, Window 36.0 used
+Timeout PDU SN: 1210, Window 36.0 used
+Timeout PDU SN: 2189, Window 36.0 used
+Timeout PDU SN: 3171, Window 36.0 used
+Timeout PDU SN: 62, Window 36.0 used
+Timeout PDU SN: 1042, Window 36.0 used
+Timeout PDU SN: 2024, Window 36.1 used
+Timeout PDU SN: 3008, Window 36.0 used
+Timeout PDU SN: 3991, Window 35.9 used
+Timeout PDU SN: 879, Window 35.9 used
+Timeout PDU SN: 1854, Window 36.0 used
+Timeout PDU SN: 2836, Window 36.0 used
+Timeout PDU SN: 3818, Window 36.0 used
+Timeout PDU SN: 702, Window 36.1 used
+Timeout PDU SN: 1684, Window 36.1 used
+Timeout PDU SN: 2669, Window 36.0 used
+Timeout PDU SN: 3652, Window 35.9 used
+Timeout PDU SN: 541, Window 35.9 used
+Timeout PDU SN: 1513, Window 36.0 used
+Timeout PDU SN: 2499, Window 36.0 used
+Timeout PDU SN: 3481, Window 35.9 used
+Timeout PDU SN: 368, Window 35.9 used
+Timeout PDU SN: 1343, Window 36.0 used
+Timeout PDU SN: 2326, Window 36.0 used
+Timeout PDU SN: 3306, Window 36.1 used
+Timeout PDU SN: 191, Window 36.1 used
+Timeout PDU SN: 1179, Window 36.0 used
+Timeout PDU SN: 2159, Window 36.1 used
+Timeout PDU SN: 3141, Window 36.1 used
+Timeout PDU SN: 37, Window 35.9 used
+Timeout PDU SN: 1012, Window 36.0 used
+Timeout PDU SN: 1996, Window 34.8 used
+Timeout PDU SN: 2975, Window 34.6 used
+Timeout PDU SN: 3900, Window 35.8 used
+Timeout PDU SN: 1828, Window 18.0 used
+Timeout PDU SN: 1835, Window 35.9 used
+Size 9767, 473 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 472x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 2810, Window 36.0 used
+Timeout PDU SN: 3793, Window 36.0 used
+Timeout PDU SN: 677, Window 36.0 used
+Timeout PDU SN: 1661, Window 35.9 used
+Timeout PDU SN: 2640, Window 36.0 used
+Timeout PDU SN: 3623, Window 34.6 used
+Timeout PDU SN: 507, Window 34.7 used
+Timeout PDU SN: 1484, Window 36.0 used
+Timeout PDU SN: 2478, Window 35.7 used
+Timeout PDU SN: 3446, Window 36.0 used
+Timeout PDU SN: 338, Window 35.9 used
+Timeout PDU SN: 1312, Window 36.0 used
+Timeout PDU SN: 2300, Window 35.9 used
+Timeout PDU SN: 3276, Window 29.3 used
+Timeout PDU SN: 162, Window 11.4 used
+Timeout PDU SN: 778, Window 0.1 used
+Size 10236, 4 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::reassemble_rx_sdus()
+Size 10236, 4 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::reassemble_rx_sdus()
+Timeout PDU SN: 978, Window 17.6 used
+Size 9618, 622 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::handle_data_pdu(uint8_t*, uint32_t)
+ - 618x void srslte::rlc_um::reassemble_rx_sdus()
+Size 9618, 622 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::handle_data_pdu(uint8_t*, uint32_t)
+ - 618x void srslte::rlc_um::reassemble_rx_sdus()
+Size 9618, 622 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::handle_data_pdu(uint8_t*, uint32_t)
+ - 618x void srslte::rlc_um::reassemble_rx_sdus()
+Size 9618, 622 buffers in queue
+ - 1x virtual void srsue::gw::run_thread()
+ - 1x virtual void srsue::lwaap::run_thread()
+ - 1x void srslte::rlc_am::reassemble_rx_sdus()
+ - 1x void srslte::rlc_um::handle_data_pdu(uint8_t*, uint32_t)
+ - 618x void srslte::rlc_um::reassemble_rx_sdus()
+Warning buffer pool capacity is 4.997559 %
+Warning buffer pool capacity is 4.995117 %
+Warning buffer pool capacity is 4.992676 %
+Warning buffer pool capacity is 4.990234 %
+Warning buffer pool capacity is 4.987793 %
+Warning buffer pool capacity is 4.985352 %
+Warning buffer pool capacity is 4.982910 %
+Warning buffer pool capacity is 4.980469 %
+Warning buffer pool capacity is 4.978027 %
+Warning buffer pool capacity is 4.975586 %
+Warning buffer pool capacity is 4.973145 %
+Warning buffer pool capacity is 4.970703 %
+Warning buffer pool capacity is 4.968262 %
+Warning buffer pool capacity is 4.965820 %
+Warning buffer pool capacity is 4.963379 %
+Warning buffer pool capacity is 4.960938 %
+Warning buffer pool capacity is 4.958496 %
+Warning buffer pool capacity is 4.956055 %
+Warning buffer pool capacity is 4.953613 %
+Warning buffer pool capacity is 4.951172 %
+Warning buffer pool capacity is 4.948730 %
+Warning buffer pool capacity is 4.946289 %
+Warning buffer pool capacity is 4.943848 %
+Warning buffer pool capacity is 4.941406 %
+Warning buffer pool capacity is 4.938965 %
+Warning buffer pool capacity is 4.936523 %
+Warning buffer pool capacity is 4.934082 %
+Warning buffer pool capacity is 4.931641 %
+Warning buffer pool capacity is 4.929199 %
+Warning buffer pool capacity is 4.926758 %
+Warning buffer pool capacity is 4.924316 %
+Warning buffer pool capacity is 4.921875 %
+Warning buffer pool capacity is 4.919434 %
+Warning buffer pool capacity is 4.916992 %
+Warning buffer pool capacity is 4.914551 %
+Warning buffer pool capacity is 4.912109 %
+Warning buffer pool capacity is 4.909668 %
+Warning buffer pool capacity is 4.907227 %
+Warning buffer pool capacity is 4.904785 %
+Warning buffer pool capacity is 4.902344 %
+Warning buffer pool capacity is 4.899902 %
+Warning buffer pool capacity is 4.897461 %
+Warning buffer pool capacity is 4.895020 %
+Warning buffer pool capacity is 4.892578 %
+Warning buffer pool capacity is 4.890137 %
+Warning buffer pool capacity is 4.887695 %
+Warning buffer pool capacity is 4.885254 %
+Warning buffer pool capacity is 4.882812 %
+Warning buffer pool capacity is 4.880371 %
+Warning buffer pool capacity is 4.877930 %
+Warning buffer pool capacity is 4.875488 %
+Warning buffer pool capacity is 4.873047 %
+Warning buffer pool capacity is 4.870605 %
+Warning buffer pool capacity is 4.868164 %
+Warning buffer pool capacity is 4.865723 %
+Warning buffer pool capacity is 4.863281 %
+Warning buffer pool capacity is 4.860840 %
+Warning buffer pool capacity is 4.858398 %
+Warning buffer pool capacity is 4.855957 %
+Warning buffer pool capacity is 4.853516 %
+Warning buffer pool capacity is 4.851074 %
+Warning buffer pool capacity is 4.848633 %
+Warning buffer pool capacity is 4.846191 %
+Warning buffer pool capacity is 4.843750 %
+Warning buffer pool capacity is 4.841309 %
+Warning buffer pool capacity is 4.838867 %
+Warning buffer pool capacity is 4.836426 %
+Warning buffer pool capacity is 4.833984 %
+Warning buffer pool capacity is 4.831543 %
+Warning buffer pool capacity is 4.829102 %
+Warning buffer pool capacity is 4.826660 %
+Warning buffer pool capacity is 4.824219 %
+Warning buffer pool capacity is 4.821777 %
+Warning buffer pool capacity is 4.819336 %
+Warning buffer pool capacity is 4.816895 %
+Warning buffer pool capacity is 4.814453 %
+Warning buffer pool capacity is 4.812012 %
+Warning buffer pool capacity is 4.809570 %
+Warning buffer pool capacity is 4.807129 %
+Warning buffer pool capacity is 4.804688 %
+Warning buffer pool capacity is 4.802246 %
+Warning buffer pool capacity is 4.799805 %
+Warning buffer pool capacity is 4.797363 %
+Warning buffer pool capacity is 4.794922 %
+Warning buffer pool capacity is 4.792480 %
+Warning buffer pool capacity is 4.790039 %
+Warning buffer pool capacity is 4.787598 %
+Warning buffer pool capacity is 4.785156 %
+Warning buffer pool capacity is 4.782715 %
+Warning buffer pool capacity is 4.780273 %
+Warning buffer pool capacity is 4.777832 %
+Warning buffer pool capacity is 4.775391 %
+Warning buffer pool capacity is 4.772949 %
+Warning buffer pool capacity is 4.770508 %
+Warning buffer pool capacity is 4.768066 %
+Warning buffer pool capacity is 4.765625 %
+Warning buffer pool capacity is 4.763184 %
+Warning buffer pool capacity is 4.760742 %
+Warning buffer pool capacity is 4.758301 %
+Warning buffer pool capacity is 4.755859 %
+Warning buffer pool capacity is 4.753418 %
+Warning buffer pool capacity is 4.750977 %
+Warning buffer pool capacity is 4.748535 %
+Warning buffer pool capacity is 4.746094 %
+Warning buffer pool capacity is 4.743652 %
+Warning buffer pool capacity is 4.741211 %
+Warning buffer pool capacity is 4.738770 %
+Warning buffer pool capacity is 4.736328 %
+Warning buffer pool capacity is 4.733887 %
+Warning buffer pool capacity is 4.731445 %
+Warning buffer pool capacity is 4.729004 %
+Warning buffer pool capacity is 4.726562 %
+Warning buffer pool capacity is 4.724121 %
+Warning buffer pool capacity is 4.721680 %
+Warning buffer pool capacity is 4.719238 %
+Warning buffer pool capacity is 4.716797 %
+Warning buffer pool capacity is 4.714355 %
+Warning buffer pool capacity is 4.711914 %
+Warning buffer pool capacity is 4.709473 %
+Warning buffer pool capacity is 4.707031 %
+Warning buffer pool capacity is 4.704590 %
+Warning buffer pool capacity is 4.702148 %
+Warning buffer pool capacity is 4.699707 %
+Warning buffer pool capacity is 4.697266 %
+Warning buffer pool capacity is 4.694824 %
+Warning buffer pool capacity is 4.692383 %
+Warning buffer pool capacity is 4.689941 %
+Warning buffer pool capacity is 4.687500 %
+Warning buffer pool capacity is 4.685059 %
+Warning buffer pool capacity is 4.682617 %
+Warning buffer pool capacity is 4.680176 %
+Warning buffer pool capacity is 4.677734 %
+Warning buffer pool capacity is 4.675293 %
+Warning buffer pool capacity is 4.672852 %
+Warning buffer pool capacity is 4.670410 %
+Warning buffer pool capacity is 4.667969 %
+Warning buffer pool capacity is 4.665527 %
+Warning buffer pool capacity is 4.663086 %
+Warning buffer pool capacity is 4.660645 %
+Warning buffer pool capacity is 4.658203 %
+Warning buffer pool capacity is 4.655762 %
+Warning buffer pool capacity is 4.653320 %
+Warning buffer pool capacity is 4.650879 %
+Warning buffer pool capacity is 4.648438 %
+Warning buffer pool capacity is 4.645996 %
+Warning buffer pool capacity is 4.643555 %
+Warning buffer pool capacity is 4.641113 %
+Warning buffer pool capacity is 4.638672 %
+Warning buffer pool capacity is 4.636230 %
+Warning buffer pool capacity is 4.633789 %
+Warning buffer pool capacity is 4.631348 %
+Warning buffer pool capacity is 4.628906 %
+Warning buffer pool capacity is 4.626465 %
+Warning buffer pool capacity is 4.624023 %
+Warning buffer pool capacity is 4.621582 %
+Warning buffer pool capacity is 4.619141 %
+Warning buffer pool capacity is 4.616699 %
+Warning buffer pool capacity is 4.614258 %
+Warning buffer pool capacity is 4.611816 %
+Warning buffer pool capacity is 4.609375 %
+Warning buffer pool capacity is 4.606934 %
+Warning buffer pool capacity is 4.604492 %
+Warning buffer pool capacity is 4.602051 %
+Warning buffer pool capacity is 4.599609 %
+Warning buffer pool capacity is 4.597168 %
+Warning buffer pool capacity is 4.594727 %
+Warning buffer pool capacity is 4.592285 %
+Warning buffer pool capacity is 4.589844 %
+Warning buffer pool capacity is 4.587402 %
+Warning buffer pool capacity is 4.584961 %
+Warning buffer pool capacity is 4.582520 %
+Warning buffer pool capacity is 4.580078 %
+Warning buffer pool capacity is 4.577637 %
+Warning buffer pool capacity is 4.575195 %
+Warning buffer pool capacity is 4.572754 %
+Warning buffer pool capacity is 4.570312 %
+Warning buffer pool capacity is 4.567871 %
+Warning buffer pool capacity is 4.565430 %
+Warning buffer pool capacity is 4.562988 %
+Warning buffer pool capacity is 4.560547 %
+Warning buffer pool capacity is 4.558105 %
+Warning buffer pool capacity is 4.555664 %
+Warning buffer pool capacity is 4.553223 %
+Warning buffer pool capacity is 4.550781 %
+Warning buffer pool capacity is 4.548340 %
+Warning buffer pool capacity is 4.545898 %
+Warning buffer pool capacity is 4.543457 %
+Warning buffer pool capacity is 4.541016 %
+Warning buffer pool capacity is 4.538574 %
+Warning buffer pool capacity is 4.536133 %
+Warning buffer pool capacity is 4.533691 %
+Warning buffer pool capacity is 4.531250 %
+Warning buffer pool capacity is 4.528809 %
+Warning buffer pool capacity is 4.526367 %
+Warning buffer pool capacity is 4.523926 %
+Warning buffer pool capacity is 4.521484 %
+Warning buffer pool capacity is 4.519043 %
+Warning buffer pool capacity is 4.516602 %
+Warning buffer pool capacity is 4.514160 %
+Warning buffer pool capacity is 4.511719 %
+Warning buffer pool capacity is 4.509277 %
+Warning buffer pool capacity is 4.506836 %
+Warning buffer pool capacity is 4.504395 %
+Warning buffer pool capacity is 4.501953 %
+Warning buffer pool capacity is 4.499512 %
+Warning buffer pool capacity is 4.497070 %
+Warning buffer pool capacity is 4.494629 %
+Warning buffer pool capacity is 4.492188 %
+Warning buffer pool capacity is 4.489746 %
+Warning buffer pool capacity is 4.487305 %
+Warning buffer pool capacity is 4.484863 %
+Warning buffer pool capacity is 4.482422 %
+Warning buffer pool capacity is 4.479980 %
+Warning buffer pool capacity is 4.477539 %
+Warning buffer pool capacity is 4.475098 %
+Warning buffer pool capacity is 4.472656 %
+Warning buffer pool capacity is 4.470215 %
+Warning buffer pool capacity is 4.467773 %
+Warning buffer pool capacity is 4.465332 %
+Warning buffer pool capacity is 4.462891 %
+Warning buffer pool capacity is 4.460449 %
+Warning buffer pool capacity is 4.458008 %
+Warning buffer pool capacity is 4.455566 %
+Warning buffer pool capacity is 4.453125 %
+Warning buffer pool capacity is 4.450684 %
+Warning buffer pool capacity is 4.448242 %
+Warning buffer pool capacity is 4.445801 %
+Warning buffer pool capacity is 4.443359 %
+Warning buffer pool capacity is 4.440918 %
+Warning buffer pool capacity is 4.438477 %
+Warning buffer pool capacity is 4.436035 %
+Warning buffer pool capacity is 4.433594 %
+Warning buffer pool capacity is 4.431152 %
+Warning buffer pool capacity is 4.428711 %
+Warning buffer pool capacity is 4.426270 %
+Warning buffer pool capacity is 4.423828 %
+Warning buffer pool capacity is 4.421387 %
+Warning buffer pool capacity is 4.418945 %
+Warning buffer pool capacity is 4.416504 %
+Warning buffer pool capacity is 4.414062 %
+Warning buffer pool capacity is 4.411621 %
+Warning buffer pool capacity is 4.409180 %
+Warning buffer pool capacity is 4.406738 %
+Warning buffer pool capacity is 4.404297 %
+Warning buffer pool capacity is 4.401855 %
+Warning buffer pool capacity is 4.399414 %
+Warning buffer pool capacity is 4.396973 %
+Warning buffer pool capacity is 4.394531 %
+Warning buffer pool capacity is 4.392090 %
+Warning buffer pool capacity is 4.389648 %
+Warning buffer pool capacity is 4.387207 %
+Warning buffer pool capacity is 4.384766 %
+Warning buffer pool capacity is 4.382324 %
+Warning buffer pool capacity is 4.379883 %
+Warning buffer pool capacity is 4.377441 %
+Warning buffer pool capacity is 4.375000 %
+Warning buffer pool capacity is 4.372559 %
+Warning buffer pool capacity is 4.370117 %
+Warning buffer pool capacity is 4.367676 %
+Warning buffer pool capacity is 4.365234 %
+Warning buffer pool capacity is 4.362793 %
+Warning buffer pool capacity is 4.360352 %
+Warning buffer pool capacity is 4.357910 %
+Warning buffer pool capacity is 4.355469 %
+Warning buffer pool capacity is 4.353027 %
+Warning buffer pool capacity is 4.350586 %
+Warning buffer pool capacity is 4.348145 %
+Warning buffer pool capacity is 4.345703 %
+Warning buffer pool capacity is 4.343262 %
+Warning buffer pool capacity is 4.340820 %
+Warning buffer pool capacity is 4.338379 %
+Warning buffer pool capacity is 4.335938 %
+Warning buffer pool capacity is 4.333496 %
+Warning buffer pool capacity is 4.331055 %
+Warning buffer pool capacity is 4.328613 %
+Warning buffer pool capacity is 4.326172 %
+Warning buffer pool capacity is 4.323730 %
+Warning buffer pool capacity is 4.321289 %
+Warning buffer pool capacity is 4.318848 %
+Warning buffer pool capacity is 4.316406 %
+Warning buffer pool capacity is 4.313965 %
+Warning buffer pool capacity is 4.311523 %
+Warning buffer pool capacity is 4.309082 %
+Warning buffer pool capacity is 4.306641 %
+Warning buffer pool capacity is 4.304199 %
+Warning buffer pool capacity is 4.301758 %
+Warning buffer pool capacity is 4.299316 %
+Warning buffer pool capacity is 4.296875 %
+Warning buffer pool capacity is 4.294434 %
+Warning buffer pool capacity is 4.291992 %
+Warning buffer pool capacity is 4.289551 %
+Warning buffer pool capacity is 4.287109 %
+Warning buffer pool capacity is 4.284668 %
+Warning buffer pool capacity is 4.282227 %
+Warning buffer pool capacity is 4.279785 %
+Warning buffer pool capacity is 4.277344 %
+Warning buffer pool capacity is 4.274902 %
+Warning buffer pool capacity is 4.272461 %
+Warning buffer pool capacity is 4.270020 %
+Warning buffer pool capacity is 4.267578 %
+Warning buffer pool capacity is 4.265137 %
+Warning buffer pool capacity is 4.262695 %
+Warning buffer pool capacity is 4.260254 %
+Warning buffer pool capacity is 4.257812 %
+Warning buffer pool capacity is 4.255371 %
+Warning buffer pool capacity is 4.252930 %
+Warning buffer pool capacity is 4.250488 %
+Warning buffer pool capacity is 4.248047 %
+Warning buffer pool capacity is 4.245605 %
+Warning buffer pool capacity is 4.243164 %
+Warning buffer pool capacity is 4.240723 %
+Warning buffer pool capacity is 4.238281 %
+Warning buffer pool capacity is 4.235840 %
+Warning buffer pool capacity is 4.233398 %
+Warning buffer pool capacity is 4.230957 %
+Warning buffer pool capacity is 4.228516 %
+Warning buffer pool capacity is 4.226074 %
+Warning buffer pool capacity is 4.223633 %
+Warning buffer pool capacity is 4.221191 %
+Warning buffer pool capacity is 4.218750 %
+Warning buffer pool capacity is 4.216309 %
+Warning buffer pool capacity is 4.213867 %
+Warning buffer pool capacity is 4.211426 %
+Warning buffer pool capacity is 4.208984 %
+Warning buffer pool capacity is 4.206543 %
+Warning buffer pool capacity is 4.204102 %
+Warning buffer pool capacity is 4.201660 %
+Warning buffer pool capacity is 4.199219 %
+Warning buffer pool capacity is 4.196777 %
+Warning buffer pool capacity is 4.194336 %
+Warning buffer pool capacity is 4.191895 %
+Warning buffer pool capacity is 4.189453 %
+Warning buffer pool capacity is 4.187012 %
+Warning buffer pool capacity is 4.184570 %
+Warning buffer pool capacity is 4.182129 %
+Warning buffer pool capacity is 4.179688 %
+Warning buffer pool capacity is 4.177246 %
+Warning buffer pool capacity is 4.174805 %
+Warning buffer pool capacity is 4.172363 %
+Warning buffer pool capacity is 4.169922 %
+Warning buffer pool capacity is 4.167480 %
+Warning buffer pool capacity is 4.165039 %
+Warning buffer pool capacity is 4.162598 %
+Warning buffer pool capacity is 4.160156 %
+Warning buffer pool capacity is 4.157715 %
+Warning buffer pool capacity is 4.155273 %
+Warning buffer pool capacity is 4.152832 %
+Warning buffer pool capacity is 4.150391 %
+Warning buffer pool capacity is 4.147949 %
+Warning buffer pool capacity is 4.145508 %
+Warning buffer pool capacity is 4.143066 %
+Warning buffer pool capacity is 4.140625 %
+Warning buffer pool capacity is 4.138184 %
+Warning buffer pool capacity is 4.135742 %
+Warning buffer pool capacity is 4.133301 %
+Warning buffer pool capacity is 4.130859 %
+Warning buffer pool capacity is 4.128418 %
+Warning buffer pool capacity is 4.125977 %
+Warning buffer pool capacity is 4.123535 %
+Warning buffer pool capacity is 4.121094 %
+Warning buffer pool capacity is 4.118652 %
+Warning buffer pool capacity is 4.116211 %
+Warning buffer pool capacity is 4.113770 %
+Warning buffer pool capacity is 4.111328 %
+Warning buffer pool capacity is 4.108887 %
+Warning buffer pool capacity is 4.106445 %
+Warning buffer pool capacity is 4.104004 %
+Warning buffer pool capacity is 4.101562 %
+Warning buffer pool capacity is 4.099121 %
+Warning buffer pool capacity is 4.096680 %
+Warning buffer pool capacity is 4.094238 %
+Warning buffer pool capacity is 4.091797 %
+Warning buffer pool capacity is 4.089355 %
+Warning buffer pool capacity is 4.086914 %
+Warning buffer pool capacity is 4.084473 %
+Warning buffer pool capacity is 4.082031 %
+Warning buffer pool capacity is 4.079590 %
+Warning buffer pool capacity is 4.077148 %
+Warning buffer pool capacity is 4.074707 %
+Warning buffer pool capacity is 4.072266 %
+Warning buffer pool capacity is 4.069824 %
+Warning buffer pool capacity is 4.067383 %
+Warning buffer pool capacity is 4.064941 %
+Warning buffer pool capacity is 4.062500 %
+Warning buffer pool capacity is 4.060059 %
+Warning buffer pool capacity is 4.057617 %
+Warning buffer pool capacity is 4.055176 %
+Warning buffer pool capacity is 4.052734 %
+Warning buffer pool capacity is 4.050293 %
+Warning buffer pool capacity is 4.047852 %
+Warning buffer pool capacity is 4.045410 %
+Warning buffer pool capacity is 4.042969 %
+Warning buffer pool capacity is 4.040527 %
+Warning buffer pool capacity is 4.038086 %
+Warning buffer pool capacity is 4.035645 %
+Warning buffer pool capacity is 4.033203 %
+Warning buffer pool capacity is 4.030762 %
+Warning buffer pool capacity is 4.028320 %
+Warning buffer pool capacity is 4.025879 %
+Warning buffer pool capacity is 4.023438 %
+Warning buffer pool capacity is 4.020996 %
+Warning buffer pool capacity is 4.018555 %
+Warning buffer pool capacity is 4.016113 %
+Warning buffer pool capacity is 4.013672 %
+Warning buffer pool capacity is 4.011230 %
+Warning buffer pool capacity is 4.008789 %
+Warning buffer pool capacity is 4.006348 %
+Warning buffer pool capacity is 4.003906 %
+Warning buffer pool capacity is 4.001465 %
+Warning buffer pool capacity is 3.999023 %
+Warning buffer pool capacity is 3.996582 %
+Warning buffer pool capacity is 3.994141 %
+Warning buffer pool capacity is 3.991699 %
+Warning buffer pool capacity is 3.989258 %
+Warning buffer pool capacity is 3.986816 %
+Warning buffer pool capacity is 3.984375 %
+Warning buffer pool capacity is 3.981934 %
+Warning buffer pool capacity is 3.979492 %
+Warning buffer pool capacity is 3.977051 %
+Warning buffer pool capacity is 3.974609 %
+Warning buffer pool capacity is 3.972168 %
+Warning buffer pool capacity is 3.969727 %
+Warning buffer pool capacity is 3.967285 %
+Warning buffer pool capacity is 3.964844 %
+Warning buffer pool capacity is 3.962402 %
+Warning buffer pool capacity is 3.959961 %
+Warning buffer pool capacity is 3.957520 %
+Warning buffer pool capacity is 3.955078 %
+Warning buffer pool capacity is 3.952637 %
+Warning buffer pool capacity is 3.950195 %
+Warning buffer pool capacity is 3.947754 %
+Warning buffer pool capacity is 3.945312 %
+Warning buffer pool capacity is 3.942871 %
+Warning buffer pool capacity is 3.940430 %
+Warning buffer pool capacity is 3.937988 %
+Warning buffer pool capacity is 3.935547 %
+Warning buffer pool capacity is 3.933105 %
+Warning buffer pool capacity is 3.930664 %
+Warning buffer pool capacity is 3.928223 %
+Warning buffer pool capacity is 3.925781 %
+Warning buffer pool capacity is 3.923340 %
+Warning buffer pool capacity is 3.920898 %
+Warning buffer pool capacity is 3.918457 %
+Warning buffer pool capacity is 3.916016 %
+Warning buffer pool capacity is 3.913574 %
+Warning buffer pool capacity is 3.911133 %
+Warning buffer pool capacity is 3.908691 %
+Warning buffer pool capacity is 3.906250 %
+Warning buffer pool capacity is 3.903809 %
+Warning buffer pool capacity is 3.901367 %
+Warning buffer pool capacity is 3.898926 %
+Warning buffer pool capacity is 3.896484 %
+Warning buffer pool capacity is 3.894043 %
+Warning buffer pool capacity is 3.891602 %
+Warning buffer pool capacity is 3.889160 %
+Warning buffer pool capacity is 3.886719 %
+Warning buffer pool capacity is 3.884277 %
+Warning buffer pool capacity is 3.881836 %
+Warning buffer pool capacity is 3.879395 %
+Warning buffer pool capacity is 3.876953 %
+Warning buffer pool capacity is 3.874512 %
+Warning buffer pool capacity is 3.872070 %
+Warning buffer pool capacity is 3.869629 %
+Warning buffer pool capacity is 3.867188 %
+Warning buffer pool capacity is 3.864746 %
+Warning buffer pool capacity is 3.862305 %
+Warning buffer pool capacity is 3.859863 %
+Warning buffer pool capacity is 3.857422 %
+Warning buffer pool capacity is 3.854980 %
+Warning buffer pool capacity is 3.852539 %
+Warning buffer pool capacity is 3.850098 %
+Warning buffer pool capacity is 3.847656 %
+Warning buffer pool capacity is 3.845215 %
+Warning buffer pool capacity is 3.842773 %
+Warning buffer pool capacity is 3.840332 %
+Warning buffer pool capacity is 3.837891 %
+Warning buffer pool capacity is 3.835449 %
+Warning buffer pool capacity is 3.833008 %
+Warning buffer pool capacity is 3.830566 %
+Warning buffer pool capacity is 3.828125 %
+Warning buffer pool capacity is 3.825684 %
+Warning buffer pool capacity is 3.823242 %
+Warning buffer pool capacity is 3.820801 %
+Warning buffer pool capacity is 3.818359 %
+Warning buffer pool capacity is 3.815918 %
+Warning buffer pool capacity is 3.813477 %
+Warning buffer pool capacity is 3.811035 %
+Warning buffer pool capacity is 3.808594 %
+Warning buffer pool capacity is 3.806152 %
+Warning buffer pool capacity is 3.803711 %
+Warning buffer pool capacity is 3.801270 %
+Warning buffer pool capacity is 3.798828 %
+Warning buffer pool capacity is 3.796387 %
+Warning buffer pool capacity is 3.793945 %
+Warning buffer pool capacity is 3.791504 %
+Warning buffer pool capacity is 3.789062 %
+Warning buffer pool capacity is 3.786621 %
+Warning buffer pool capacity is 3.784180 %
+Warning buffer pool capacity is 3.781738 %
+Warning buffer pool capacity is 3.779297 %
+Warning buffer pool capacity is 3.776855 %
+Warning buffer pool capacity is 3.774414 %
+Warning buffer pool capacity is 3.771973 %
+Warning buffer pool capacity is 3.769531 %
+Warning buffer pool capacity is 3.767090 %
+Warning buffer pool capacity is 3.764648 %
+Warning buffer pool capacity is 3.762207 %
+Warning buffer pool capacity is 3.759766 %
+Warning buffer pool capacity is 3.757324 %
+Warning buffer pool capacity is 3.754883 %
+Warning buffer pool capacity is 3.752441 %
+Warning buffer pool capacity is 3.750000 %
+Warning buffer pool capacity is 3.747559 %
+Warning buffer pool capacity is 3.745117 %
+Warning buffer pool capacity is 3.742676 %
+Warning buffer pool capacity is 3.740234 %
+Warning buffer pool capacity is 3.737793 %
+Warning buffer pool capacity is 3.735352 %
+Warning buffer pool capacity is 3.732910 %
+Warning buffer pool capacity is 3.730469 %
+Warning buffer pool capacity is 3.728027 %
+Warning buffer pool capacity is 3.725586 %
+Warning buffer pool capacity is 3.723145 %
+Warning buffer pool capacity is 3.720703 %
+Warning buffer pool capacity is 3.718262 %
+Warning buffer pool capacity is 3.715820 %
+Warning buffer pool capacity is 3.713379 %
+Warning buffer pool capacity is 3.710938 %
+Warning buffer pool capacity is 3.708496 %
+Warning buffer pool capacity is 3.706055 %
+Warning buffer pool capacity is 3.703613 %
+Warning buffer pool capacity is 3.701172 %
+Warning buffer pool capacity is 3.698730 %
+Warning buffer pool capacity is 3.696289 %
+Warning buffer pool capacity is 3.693848 %
+Warning buffer pool capacity is 3.691406 %
+Warning buffer pool capacity is 3.688965 %
+Warning buffer pool capacity is 3.686523 %
+Warning buffer pool capacity is 3.684082 %
+Warning buffer pool capacity is 3.681641 %
+Warning buffer pool capacity is 3.679199 %
+Warning buffer pool capacity is 3.676758 %
+Warning buffer pool capacity is 3.674316 %
+Warning buffer pool capacity is 3.671875 %
+Warning buffer pool capacity is 3.669434 %
+Warning buffer pool capacity is 3.666992 %
+Warning buffer pool capacity is 3.664551 %
+Warning buffer pool capacity is 3.662109 %
+Warning buffer pool capacity is 3.659668 %
+Warning buffer pool capacity is 3.657227 %
+Warning buffer pool capacity is 3.654785 %
+Warning buffer pool capacity is 3.652344 %
+Warning buffer pool capacity is 3.649902 %
+Warning buffer pool capacity is 3.647461 %
+Warning buffer pool capacity is 3.645020 %
+Warning buffer pool capacity is 3.642578 %
+Warning buffer pool capacity is 3.640137 %
+Warning buffer pool capacity is 3.637695 %
+Warning buffer pool capacity is 3.635254 %
+Warning buffer pool capacity is 3.632812 %
+Warning buffer pool capacity is 3.630371 %
+Warning buffer pool capacity is 3.627930 %
+Warning buffer pool capacity is 3.625488 %
+Warning buffer pool capacity is 3.623047 %
+Warning buffer pool capacity is 3.620605 %
+Warning buffer pool capacity is 3.618164 %
+Warning buffer pool capacity is 3.615723 %
+Warning buffer pool capacity is 3.613281 %
+Warning buffer pool capacity is 3.610840 %
+Warning buffer pool capacity is 3.608398 %
+Warning buffer pool capacity is 3.605957 %
+Warning buffer pool capacity is 3.603516 %
+Warning buffer pool capacity is 3.601074 %
+Warning buffer pool capacity is 3.598633 %
+Warning buffer pool capacity is 3.596191 %
+Warning buffer pool capacity is 3.593750 %
+Warning buffer pool capacity is 3.591309 %
+Warning buffer pool capacity is 3.588867 %
+Warning buffer pool capacity is 3.586426 %
+Warning buffer pool capacity is 3.583984 %
+Warning buffer pool capacity is 3.581543 %
+Warning buffer pool capacity is 3.579102 %
+Warning buffer pool capacity is 3.576660 %
+Warning buffer pool capacity is 3.574219 %
+Warning buffer pool capacity is 3.571777 %
+Warning buffer pool capacity is 3.569336 %
+Warning buffer pool capacity is 3.566895 %
+Warning buffer pool capacity is 3.564453 %
+Warning buffer pool capacity is 3.562012 %
+Warning buffer pool capacity is 3.559570 %
+Warning buffer pool capacity is 3.557129 %
+Warning buffer pool capacity is 3.554688 %
+Warning buffer pool capacity is 3.552246 %
+Warning buffer pool capacity is 3.549805 %
+Warning buffer pool capacity is 3.547363 %
+Warning buffer pool capacity is 3.544922 %
+Warning buffer pool capacity is 3.542480 %
+Warning buffer pool capacity is 3.540039 %
+Warning buffer pool capacity is 3.537598 %
+Warning buffer pool capacity is 3.535156 %
+Warning buffer pool capacity is 3.532715 %
+Warning buffer pool capacity is 3.530273 %
+Warning buffer pool capacity is 3.527832 %
+Warning buffer pool capacity is 3.525391 %
+Warning buffer pool capacity is 3.522949 %
+Warning buffer pool capacity is 3.520508 %
+Warning buffer pool capacity is 3.518066 %
+Warning buffer pool capacity is 3.515625 %
+Warning buffer pool capacity is 3.513184 %
+Warning buffer pool capacity is 3.510742 %
+Warning buffer pool capacity is 3.508301 %
+Warning buffer pool capacity is 3.505859 %
+Warning buffer pool capacity is 3.503418 %
+Warning buffer pool capacity is 3.500977 %
+Warning buffer pool capacity is 3.498535 %
+Warning buffer pool capacity is 3.496094 %
+Warning buffer pool capacity is 3.493652 %
+Warning buffer pool capacity is 3.491211 %
+Warning buffer pool capacity is 3.488770 %
+Warning buffer pool capacity is 3.486328 %
+Warning buffer pool capacity is 3.483887 %
+Warning buffer pool capacity is 3.481445 %
+Warning buffer pool capacity is 3.479004 %
+Warning buffer pool capacity is 3.476562 %
+Warning buffer pool capacity is 3.474121 %
+Warning buffer pool capacity is 3.471680 %
+Warning buffer pool capacity is 3.469238 %
+Warning buffer pool capacity is 3.466797 %
+Warning buffer pool capacity is 3.464355 %
+Warning buffer pool capacity is 3.461914 %
+Warning buffer pool capacity is 3.459473 %
+Warning buffer pool capacity is 3.457031 %
+Warning buffer pool capacity is 3.454590 %
+Warning buffer pool capacity is 3.452148 %
+Warning buffer pool capacity is 3.449707 %
+Warning buffer pool capacity is 3.447266 %
+Warning buffer pool capacity is 3.444824 %
+Warning buffer pool capacity is 3.442383 %
+Warning buffer pool capacity is 3.439941 %
+Warning buffer pool capacity is 3.437500 %
+Warning buffer pool capacity is 3.435059 %
+Warning buffer pool capacity is 3.432617 %
+Warning buffer pool capacity is 3.430176 %
+Warning buffer pool capacity is 3.427734 %
+Warning buffer pool capacity is 3.425293 %
+Warning buffer pool capacity is 3.422852 %
+Warning buffer pool capacity is 3.420410 %
+Warning buffer pool capacity is 3.417969 %
+Warning buffer pool capacity is 3.415527 %
+Warning buffer pool capacity is 3.413086 %
+Warning buffer pool capacity is 3.410645 %
+Warning buffer pool capacity is 3.408203 %
+Warning buffer pool capacity is 3.405762 %
+Warning buffer pool capacity is 3.403320 %
+Warning buffer pool capacity is 3.400879 %
+Warning buffer pool capacity is 3.398438 %
+Warning buffer pool capacity is 3.395996 %
+Warning buffer pool capacity is 3.393555 %
+Warning buffer pool capacity is 3.391113 %
+Warning buffer pool capacity is 3.388672 %
+Warning buffer pool capacity is 3.386230 %
+Warning buffer pool capacity is 3.383789 %
+Warning buffer pool capacity is 3.381348 %
+Warning buffer pool capacity is 3.378906 %
+Warning buffer pool capacity is 3.376465 %
+Warning buffer pool capacity is 3.374023 %
+Warning buffer pool capacity is 3.371582 %
+Warning buffer pool capacity is 3.369141 %
+Warning buffer pool capacity is 3.366699 %
+Warning buffer pool capacity is 3.364258 %
+Warning buffer pool capacity is 3.361816 %
+Warning buffer pool capacity is 3.359375 %
+Warning buffer pool capacity is 3.356934 %
+Warning buffer pool capacity is 3.354492 %
+Warning buffer pool capacity is 3.352051 %
+Warning buffer pool capacity is 3.349609 %
+Warning buffer pool capacity is 3.347168 %
+Warning buffer pool capacity is 3.344727 %
+Warning buffer pool capacity is 3.342285 %
+Warning buffer pool capacity is 3.339844 %
+Warning buffer pool capacity is 3.337402 %
+Warning buffer pool capacity is 3.334961 %
+Warning buffer pool capacity is 3.332520 %
+Warning buffer pool capacity is 3.330078 %
+Warning buffer pool capacity is 3.327637 %
+Warning buffer pool capacity is 3.325195 %
+Warning buffer pool capacity is 3.322754 %
+Warning buffer pool capacity is 3.320312 %
+Warning buffer pool capacity is 3.317871 %
+Warning buffer pool capacity is 3.315430 %
+Warning buffer pool capacity is 3.312988 %
+Warning buffer pool capacity is 3.310547 %
+Warning buffer pool capacity is 3.308105 %
+Warning buffer pool capacity is 3.305664 %
+Warning buffer pool capacity is 3.303223 %
+Warning buffer pool capacity is 3.300781 %
+Warning buffer pool capacity is 3.298340 %
+Warning buffer pool capacity is 3.295898 %
+Warning buffer pool capacity is 3.293457 %
+Warning buffer pool capacity is 3.291016 %
+Warning buffer pool capacity is 3.288574 %
+Warning buffer pool capacity is 3.286133 %
+Warning buffer pool capacity is 3.283691 %
+Warning buffer pool capacity is 3.281250 %
+Warning buffer pool capacity is 3.278809 %
+Warning buffer pool capacity is 3.276367 %
+Warning buffer pool capacity is 3.273926 %
+Warning buffer pool capacity is 3.271484 %
+Warning buffer pool capacity is 3.269043 %
+Warning buffer pool capacity is 3.266602 %
+Warning buffer pool capacity is 3.264160 %
+Warning buffer pool capacity is 3.261719 %
+Warning buffer pool capacity is 3.259277 %
+Warning buffer pool capacity is 3.256836 %
+Warning buffer pool capacity is 3.254395 %
+Warning buffer pool capacity is 3.251953 %
+Warning buffer pool capacity is 3.249512 %
+Warning buffer pool capacity is 3.247070 %
+Warning buffer pool capacity is 3.244629 %
+Warning buffer pool capacity is 3.242188 %
+Warning buffer pool capacity is 3.239746 %
+Warning buffer pool capacity is 3.237305 %
+Warning buffer pool capacity is 3.234863 %
+Warning buffer pool capacity is 3.232422 %
+Warning buffer pool capacity is 3.229980 %
+Warning buffer pool capacity is 3.227539 %
+Warning buffer pool capacity is 3.225098 %
+Warning buffer pool capacity is 3.222656 %
+Warning buffer pool capacity is 3.220215 %
+Warning buffer pool capacity is 3.217773 %
+Warning buffer pool capacity is 3.215332 %
+Warning buffer pool capacity is 3.212891 %
+Warning buffer pool capacity is 3.210449 %
+Warning buffer pool capacity is 3.208008 %
+Warning buffer pool capacity is 3.205566 %
+Warning buffer pool capacity is 3.203125 %
+Warning buffer pool capacity is 3.200684 %
+Warning buffer pool capacity is 3.198242 %
+Warning buffer pool capacity is 3.195801 %
+Warning buffer pool capacity is 3.193359 %
+Warning buffer pool capacity is 3.190918 %
+Warning buffer pool capacity is 3.188477 %
+Warning buffer pool capacity is 3.186035 %
+Warning buffer pool capacity is 3.183594 %
+Warning buffer pool capacity is 3.181152 %
+Warning buffer pool capacity is 3.178711 %
+Warning buffer pool capacity is 3.176270 %
+Warning buffer pool capacity is 3.173828 %
+Warning buffer pool capacity is 3.171387 %
+Warning buffer pool capacity is 3.168945 %
+Warning buffer pool capacity is 3.166504 %
+Warning buffer pool capacity is 3.164062 %
+Warning buffer pool capacity is 3.161621 %
+Warning buffer pool capacity is 3.159180 %
+Warning buffer pool capacity is 3.156738 %
+Warning buffer pool capacity is 3.154297 %
+Warning buffer pool capacity is 3.151855 %
+Warning buffer pool capacity is 3.149414 %
+Warning buffer pool capacity is 3.146973 %
+Warning buffer pool capacity is 3.144531 %
+Warning buffer pool capacity is 3.142090 %
+Warning buffer pool capacity is 3.139648 %
+Warning buffer pool capacity is 3.137207 %
+Warning buffer pool capacity is 3.134766 %
+Warning buffer pool capacity is 3.132324 %
+Warning buffer pool capacity is 3.129883 %
+Warning buffer pool capacity is 3.127441 %
+Warning buffer pool capacity is 3.125000 %
+Warning buffer pool capacity is 3.122559 %
+Warning buffer pool capacity is 3.120117 %
+Warning buffer pool capacity is 3.117676 %
+Warning buffer pool capacity is 3.115234 %
+Warning buffer pool capacity is 3.112793 %
+Warning buffer pool capacity is 3.110352 %
+Warning buffer pool capacity is 3.107910 %
+Warning buffer pool capacity is 3.105469 %
+Warning buffer pool capacity is 3.103027 %
+Warning buffer pool capacity is 3.100586 %
+Warning buffer pool capacity is 3.098145 %
+Warning buffer pool capacity is 3.095703 %
+Warning buffer pool capacity is 3.093262 %
+Warning buffer pool capacity is 3.090820 %
+Warning buffer pool capacity is 3.088379 %
+Warning buffer pool capacity is 3.085938 %
+Warning buffer pool capacity is 3.083496 %
+Warning buffer pool capacity is 3.081055 %
+Warning buffer pool capacity is 3.078613 %
+Warning buffer pool capacity is 3.076172 %
+Warning buffer pool capacity is 3.073730 %
+Warning buffer pool capacity is 3.071289 %
+Warning buffer pool capacity is 3.068848 %
+Warning buffer pool capacity is 3.066406 %
+Warning buffer pool capacity is 3.063965 %
+Warning buffer pool capacity is 3.061523 %
+Warning buffer pool capacity is 3.059082 %
+Warning buffer pool capacity is 3.056641 %
+Warning buffer pool capacity is 3.054199 %
+Warning buffer pool capacity is 3.051758 %
+Warning buffer pool capacity is 3.049316 %
+Warning buffer pool capacity is 3.046875 %
+Warning buffer pool capacity is 3.044434 %
+Warning buffer pool capacity is 3.041992 %
+Warning buffer pool capacity is 3.039551 %
+Warning buffer pool capacity is 3.037109 %
+Warning buffer pool capacity is 3.034668 %
+Warning buffer pool capacity is 3.032227 %
+Warning buffer pool capacity is 3.029785 %
+Warning buffer pool capacity is 3.027344 %
+Warning buffer pool capacity is 3.024902 %
+Warning buffer pool capacity is 3.022461 %
+Warning buffer pool capacity is 3.020020 %
+Warning buffer pool capacity is 3.017578 %
+Warning buffer pool capacity is 3.015137 %
+Warning buffer pool capacity is 3.012695 %
+Warning buffer pool capacity is 3.010254 %
+Warning buffer pool capacity is 3.007812 %
+Warning buffer pool capacity is 3.005371 %
+Warning buffer pool capacity is 3.002930 %
+Warning buffer pool capacity is 3.000488 %
+Warning buffer pool capacity is 2.998047 %
+Warning buffer pool capacity is 2.995605 %
+Warning buffer pool capacity is 2.993164 %
+Warning buffer pool capacity is 2.990723 %
+Warning buffer pool capacity is 2.988281 %
+Warning buffer pool capacity is 2.985840 %
+Warning buffer pool capacity is 2.983398 %
+Warning buffer pool capacity is 2.980957 %
+Warning buffer pool capacity is 2.978516 %
+Warning buffer pool capacity is 2.976074 %
+Warning buffer pool capacity is 2.973633 %
+Warning buffer pool capacity is 2.971191 %
+Warning buffer pool capacity is 2.968750 %
+Warning buffer pool capacity is 2.966309 %
+Warning buffer pool capacity is 2.963867 %
+Warning buffer pool capacity is 2.961426 %
+Warning buffer pool capacity is 2.958984 %
+Warning buffer pool capacity is 2.956543 %
+Warning buffer pool capacity is 2.954102 %
+Warning buffer pool capacity is 2.951660 %
+Warning buffer pool capacity is 2.949219 %
+Warning buffer pool capacity is 2.946777 %
+Warning buffer pool capacity is 2.944336 %
+Warning buffer pool capacity is 2.941895 %
+Warning buffer pool capacity is 2.939453 %
+Warning buffer pool capacity is 2.937012 %
+Warning buffer pool capacity is 2.934570 %
+Warning buffer pool capacity is 2.932129 %
+Warning buffer pool capacity is 2.929688 %
+Warning buffer pool capacity is 2.927246 %
+Warning buffer pool capacity is 2.924805 %
+Warning buffer pool capacity is 2.922363 %
+Warning buffer pool capacity is 2.919922 %
+Warning buffer pool capacity is 2.917480 %
+Warning buffer pool capacity is 2.915039 %
+Warning buffer pool capacity is 2.912598 %
+Warning buffer pool capacity is 2.910156 %
+Warning buffer pool capacity is 2.907715 %
+Warning buffer pool capacity is 2.905273 %
+Warning buffer pool capacity is 2.902832 %
+Warning buffer pool capacity is 2.900391 %
+Warning buffer pool capacity is 2.897949 %
+Warning buffer pool capacity is 2.895508 %
+Warning buffer pool capacity is 2.893066 %
+Warning buffer pool capacity is 2.890625 %
+Warning buffer pool capacity is 2.888184 %
+Warning buffer pool capacity is 2.885742 %
+Warning buffer pool capacity is 2.883301 %
+Warning buffer pool capacity is 2.880859 %
+Warning buffer pool capacity is 2.878418 %
+Warning buffer pool capacity is 2.875977 %
+Warning buffer pool capacity is 2.873535 %
+Warning buffer pool capacity is 2.871094 %
+Warning buffer pool capacity is 2.868652 %
+Warning buffer pool capacity is 2.866211 %
+Warning buffer pool capacity is 2.863770 %
+Warning buffer pool capacity is 2.861328 %
+Warning buffer pool capacity is 2.858887 %
+Warning buffer pool capacity is 2.856445 %
+Warning buffer pool capacity is 2.854004 %
+Warning buffer pool capacity is 2.851562 %
+Warning buffer pool capacity is 2.849121 %
+Warning buffer pool capacity is 2.846680 %
+Warning buffer pool capacity is 2.844238 %
+Warning buffer pool capacity is 2.841797 %
+Warning buffer pool capacity is 2.839355 %
+Warning buffer pool capacity is 2.836914 %
+Warning buffer pool capacity is 2.834473 %
+Warning buffer pool capacity is 2.832031 %
+Warning buffer pool capacity is 2.829590 %
+Warning buffer pool capacity is 2.827148 %
+Warning buffer pool capacity is 2.824707 %
+Warning buffer pool capacity is 2.822266 %
+Warning buffer pool capacity is 2.819824 %
+Warning buffer pool capacity is 2.817383 %
+Warning buffer pool capacity is 2.814941 %
+Warning buffer pool capacity is 2.812500 %
+Warning buffer pool capacity is 2.810059 %
+Warning buffer pool capacity is 2.807617 %
+Warning buffer pool capacity is 2.805176 %
+Warning buffer pool capacity is 2.802734 %
+Warning buffer pool capacity is 2.800293 %
+Warning buffer pool capacity is 2.797852 %
+Warning buffer pool capacity is 2.795410 %
+Warning buffer pool capacity is 2.792969 %
+Warning buffer pool capacity is 2.790527 %
+Warning buffer pool capacity is 2.788086 %
+Warning buffer pool capacity is 2.785645 %
+Warning buffer pool capacity is 2.783203 %
+Warning buffer pool capacity is 2.780762 %
+Warning buffer pool capacity is 2.778320 %
+Warning buffer pool capacity is 2.775879 %
+Warning buffer pool capacity is 2.773438 %
+Warning buffer pool capacity is 2.770996 %
+Warning buffer pool capacity is 2.768555 %
+Warning buffer pool capacity is 2.766113 %
+Warning buffer pool capacity is 2.763672 %
+Warning buffer pool capacity is 2.761230 %
+Warning buffer pool capacity is 2.758789 %
+Warning buffer pool capacity is 2.756348 %
+Warning buffer pool capacity is 2.753906 %
+Warning buffer pool capacity is 2.751465 %
+Warning buffer pool capacity is 2.749023 %
+Warning buffer pool capacity is 2.746582 %
+Warning buffer pool capacity is 2.744141 %
+Warning buffer pool capacity is 2.741699 %
+Warning buffer pool capacity is 2.739258 %
+Warning buffer pool capacity is 2.736816 %
+Warning buffer pool capacity is 2.734375 %
+Warning buffer pool capacity is 2.731934 %
+Warning buffer pool capacity is 2.729492 %
+Warning buffer pool capacity is 2.727051 %
+Warning buffer pool capacity is 2.724609 %
+Warning buffer pool capacity is 2.722168 %
+Warning buffer pool capacity is 2.719727 %
+Warning buffer pool capacity is 2.717285 %
+Warning buffer pool capacity is 2.714844 %
+Warning buffer pool capacity is 2.712402 %
+Warning buffer pool capacity is 2.709961 %
+Warning buffer pool capacity is 2.707520 %
+Warning buffer pool capacity is 2.705078 %
+Warning buffer pool capacity is 2.702637 %
+Warning buffer pool capacity is 2.700195 %
+Warning buffer pool capacity is 2.697754 %
+Warning buffer pool capacity is 2.695312 %
+Warning buffer pool capacity is 2.692871 %
+Warning buffer pool capacity is 2.690430 %
+Warning buffer pool capacity is 2.687988 %
+Warning buffer pool capacity is 2.685547 %
+Warning buffer pool capacity is 2.683105 %
+Warning buffer pool capacity is 2.680664 %
+Warning buffer pool capacity is 2.678223 %
+Warning buffer pool capacity is 2.675781 %
+Warning buffer pool capacity is 2.673340 %
+Warning buffer pool capacity is 2.670898 %
+Warning buffer pool capacity is 2.668457 %
+Warning buffer pool capacity is 2.666016 %
+Warning buffer pool capacity is 2.663574 %
+Warning buffer pool capacity is 2.661133 %
+Warning buffer pool capacity is 2.658691 %
+Warning buffer pool capacity is 2.656250 %
+Warning buffer pool capacity is 2.653809 %
+Warning buffer pool capacity is 2.651367 %
+Warning buffer pool capacity is 2.648926 %
+Warning buffer pool capacity is 2.646484 %
+Warning buffer pool capacity is 2.644043 %
+Warning buffer pool capacity is 2.641602 %
+Warning buffer pool capacity is 2.639160 %
+Warning buffer pool capacity is 2.636719 %
+Warning buffer pool capacity is 2.634277 %
+Warning buffer pool capacity is 2.631836 %
+Warning buffer pool capacity is 2.629395 %
+Warning buffer pool capacity is 2.626953 %
+Warning buffer pool capacity is 2.624512 %
+Warning buffer pool capacity is 2.622070 %
+Warning buffer pool capacity is 2.619629 %
+Warning buffer pool capacity is 2.617188 %
+Warning buffer pool capacity is 2.614746 %
+Warning buffer pool capacity is 2.612305 %
+Warning buffer pool capacity is 2.609863 %
+Warning buffer pool capacity is 2.607422 %
+Warning buffer pool capacity is 2.604980 %
+Warning buffer pool capacity is 2.602539 %
+Warning buffer pool capacity is 2.600098 %
+Warning buffer pool capacity is 2.597656 %
+Warning buffer pool capacity is 2.595215 %
+Warning buffer pool capacity is 2.592773 %
+Warning buffer pool capacity is 2.590332 %
+Warning buffer pool capacity is 2.587891 %
+Warning buffer pool capacity is 2.585449 %
+Warning buffer pool capacity is 2.583008 %
+Warning buffer pool capacity is 2.580566 %
+Warning buffer pool capacity is 2.578125 %
+Warning buffer pool capacity is 2.575684 %
+Warning buffer pool capacity is 2.573242 %
+Warning buffer pool capacity is 2.570801 %
+Warning buffer pool capacity is 2.568359 %
+Warning buffer pool capacity is 2.565918 %
+Warning buffer pool capacity is 2.563477 %
+Warning buffer pool capacity is 2.561035 %
+Warning buffer pool capacity is 2.558594 %
+Warning buffer pool capacity is 2.556152 %
+Warning buffer pool capacity is 2.553711 %
+Warning buffer pool capacity is 2.551270 %
+Warning buffer pool capacity is 2.548828 %
+Warning buffer pool capacity is 2.546387 %
+Warning buffer pool capacity is 2.543945 %
+Warning buffer pool capacity is 2.541504 %
+Warning buffer pool capacity is 2.539062 %
+Warning buffer pool capacity is 2.536621 %
+Warning buffer pool capacity is 2.534180 %
+Warning buffer pool capacity is 2.531738 %
+Warning buffer pool capacity is 2.529297 %
+Warning buffer pool capacity is 2.526855 %
+Warning buffer pool capacity is 2.524414 %
+Warning buffer pool capacity is 2.521973 %
+Warning buffer pool capacity is 2.519531 %
+Warning buffer pool capacity is 2.517090 %
+Warning buffer pool capacity is 2.514648 %
+Warning buffer pool capacity is 2.512207 %
+Warning buffer pool capacity is 2.509766 %
+Warning buffer pool capacity is 2.507324 %
+Warning buffer pool capacity is 2.504883 %
+Warning buffer pool capacity is 2.502441 %
+Warning buffer pool capacity is 2.500000 %
+Warning buffer pool capacity is 2.497559 %
+Warning buffer pool capacity is 2.495117 %
+Warning buffer pool capacity is 2.492676 %
+Warning buffer pool capacity is 2.490234 %
+Warning buffer pool capacity is 2.487793 %
+Warning buffer pool capacity is 2.485352 %
+Warning buffer pool capacity is 2.482910 %
+Warning buffer pool capacity is 2.480469 %
+Warning buffer pool capacity is 2.478027 %
+Warning buffer pool capacity is 2.475586 %
+Warning buffer pool capacity is 2.473145 %
+Warning buffer pool capacity is 2.470703 %
+Warning buffer pool capacity is 2.468262 %
+Warning buffer pool capacity is 2.465820 %
+Warning buffer pool capacity is 2.463379 %
+Warning buffer pool capacity is 2.460938 %
+Warning buffer pool capacity is 2.458496 %
+Warning buffer pool capacity is 2.456055 %
+Warning buffer pool capacity is 2.453613 %
+Warning buffer pool capacity is 2.451172 %
+Warning buffer pool capacity is 2.448730 %
+Warning buffer pool capacity is 2.446289 %
+Warning buffer pool capacity is 2.443848 %
+Warning buffer pool capacity is 2.441406 %
+Warning buffer pool capacity is 2.438965 %
+Warning buffer pool capacity is 2.436523 %
+Warning buffer pool capacity is 2.434082 %
+Warning buffer pool capacity is 2.431641 %
+Warning buffer pool capacity is 2.429199 %
+Warning buffer pool capacity is 2.426758 %
+Warning buffer pool capacity is 2.424316 %
+Warning buffer pool capacity is 2.421875 %
+Warning buffer pool capacity is 2.419434 %
+Warning buffer pool capacity is 2.416992 %
+Warning buffer pool capacity is 2.414551 %
+Warning buffer pool capacity is 2.412109 %
+Warning buffer pool capacity is 2.409668 %
+Warning buffer pool capacity is 2.407227 %
+Warning buffer pool capacity is 2.404785 %
+Warning buffer pool capacity is 2.402344 %
+Warning buffer pool capacity is 2.399902 %
+Warning buffer pool capacity is 2.397461 %
+Warning buffer pool capacity is 2.395020 %
+Warning buffer pool capacity is 2.392578 %
+Warning buffer pool capacity is 2.390137 %
+Warning buffer pool capacity is 2.387695 %
+Warning buffer pool capacity is 2.385254 %
+Warning buffer pool capacity is 2.382812 %
+Warning buffer pool capacity is 2.380371 %
+Warning buffer pool capacity is 2.377930 %
+Warning buffer pool capacity is 2.375488 %
+Warning buffer pool capacity is 2.373047 %
+Warning buffer pool capacity is 2.370605 %
+Warning buffer pool capacity is 2.368164 %
+Warning buffer pool capacity is 2.365723 %
+Warning buffer pool capacity is 2.363281 %
+Warning buffer pool capacity is 2.360840 %
+Warning buffer pool capacity is 2.358398 %
+Warning buffer pool capacity is 2.355957 %
+Warning buffer pool capacity is 2.353516 %
+Warning buffer pool capacity is 2.351074 %
+Warning buffer pool capacity is 2.348633 %
+Warning buffer pool capacity is 2.346191 %
+Warning buffer pool capacity is 2.343750 %
+Warning buffer pool capacity is 2.341309 %
+Warning buffer pool capacity is 2.338867 %
+Warning buffer pool capacity is 2.336426 %
+Warning buffer pool capacity is 2.333984 %
+Warning buffer pool capacity is 2.331543 %
+Warning buffer pool capacity is 2.329102 %
+Warning buffer pool capacity is 2.326660 %
+Warning buffer pool capacity is 2.324219 %
+Warning buffer pool capacity is 2.321777 %
+Warning buffer pool capacity is 2.319336 %
+Warning buffer pool capacity is 2.316895 %
+Warning buffer pool capacity is 2.314453 %
+Warning buffer pool capacity is 2.312012 %
+Warning buffer pool capacity is 2.309570 %
+Warning buffer pool capacity is 2.307129 %
+Warning buffer pool capacity is 2.304688 %
+Warning buffer pool capacity is 2.302246 %
+Warning buffer pool capacity is 2.299805 %
+Warning buffer pool capacity is 2.297363 %
+Warning buffer pool capacity is 2.294922 %
+Warning buffer pool capacity is 2.292480 %
+Warning buffer pool capacity is 2.290039 %
+Warning buffer pool capacity is 2.287598 %
+Warning buffer pool capacity is 2.285156 %
+Warning buffer pool capacity is 2.282715 %
+Warning buffer pool capacity is 2.280273 %
+Warning buffer pool capacity is 2.277832 %
+Warning buffer pool capacity is 2.275391 %
+Warning buffer pool capacity is 2.272949 %
+Warning buffer pool capacity is 2.270508 %
+Warning buffer pool capacity is 2.268066 %
+Warning buffer pool capacity is 2.265625 %
+Warning buffer pool capacity is 2.263184 %
+Warning buffer pool capacity is 2.260742 %
+Warning buffer pool capacity is 2.258301 %
+Warning buffer pool capacity is 2.255859 %
+Warning buffer pool capacity is 2.253418 %
+Warning buffer pool capacity is 2.250977 %
+Warning buffer pool capacity is 2.248535 %
+Warning buffer pool capacity is 2.246094 %
+Warning buffer pool capacity is 2.243652 %
+Warning buffer pool capacity is 2.241211 %
+Warning buffer pool capacity is 2.238770 %
+Warning buffer pool capacity is 2.236328 %
+Warning buffer pool capacity is 2.233887 %
+Warning buffer pool capacity is 2.231445 %
+Warning buffer pool capacity is 2.229004 %
+Warning buffer pool capacity is 2.226562 %
+Warning buffer pool capacity is 2.224121 %
+Warning buffer pool capacity is 2.221680 %
+Warning buffer pool capacity is 2.219238 %
+Warning buffer pool capacity is 2.216797 %
+Warning buffer pool capacity is 2.214355 %
+Warning buffer pool capacity is 2.211914 %
+Warning buffer pool capacity is 2.209473 %
+Warning buffer pool capacity is 2.207031 %
+Warning buffer pool capacity is 2.204590 %
+Warning buffer pool capacity is 2.202148 %
+Warning buffer pool capacity is 2.199707 %
+Warning buffer pool capacity is 2.197266 %
+Warning buffer pool capacity is 2.194824 %
+Warning buffer pool capacity is 2.192383 %
+Warning buffer pool capacity is 2.189941 %
+Warning buffer pool capacity is 2.187500 %
+Warning buffer pool capacity is 2.185059 %
+Warning buffer pool capacity is 2.182617 %
+Warning buffer pool capacity is 2.180176 %
+Warning buffer pool capacity is 2.177734 %
+Warning buffer pool capacity is 2.175293 %
+Warning buffer pool capacity is 2.172852 %
+Warning buffer pool capacity is 2.170410 %
+Warning buffer pool capacity is 2.167969 %
+Warning buffer pool capacity is 2.165527 %
+Warning buffer pool capacity is 2.163086 %
+Warning buffer pool capacity is 2.160645 %
+Warning buffer pool capacity is 2.158203 %
+Warning buffer pool capacity is 2.155762 %
+Warning buffer pool capacity is 2.153320 %
+Warning buffer pool capacity is 2.150879 %
+Warning buffer pool capacity is 2.148438 %
+Warning buffer pool capacity is 2.145996 %
+Warning buffer pool capacity is 2.143555 %
+Warning buffer pool capacity is 2.141113 %
+Warning buffer pool capacity is 2.138672 %
+Warning buffer pool capacity is 2.136230 %
+Warning buffer pool capacity is 2.133789 %
+Warning buffer pool capacity is 2.131348 %
+Warning buffer pool capacity is 2.128906 %
+Warning buffer pool capacity is 2.126465 %
+Warning buffer pool capacity is 2.124023 %
+Warning buffer pool capacity is 2.121582 %
+Warning buffer pool capacity is 2.119141 %
+Warning buffer pool capacity is 2.116699 %
+Warning buffer pool capacity is 2.114258 %
+Warning buffer pool capacity is 2.111816 %
+Warning buffer pool capacity is 2.109375 %
+Warning buffer pool capacity is 2.106934 %
+Warning buffer pool capacity is 2.104492 %
+Warning buffer pool capacity is 2.102051 %
+Warning buffer pool capacity is 2.099609 %
+Warning buffer pool capacity is 2.097168 %
+Warning buffer pool capacity is 2.094727 %
+Warning buffer pool capacity is 2.092285 %
+Warning buffer pool capacity is 2.089844 %
+Warning buffer pool capacity is 2.087402 %
+Warning buffer pool capacity is 2.084961 %
+Warning buffer pool capacity is 2.082520 %
+Warning buffer pool capacity is 2.080078 %
+Warning buffer pool capacity is 2.077637 %
+Warning buffer pool capacity is 2.075195 %
+Warning buffer pool capacity is 2.072754 %
+Warning buffer pool capacity is 2.070312 %
+Warning buffer pool capacity is 2.067871 %
+Warning buffer pool capacity is 2.065430 %
+Warning buffer pool capacity is 2.062988 %
+Warning buffer pool capacity is 2.060547 %
+Warning buffer pool capacity is 2.058105 %
+Warning buffer pool capacity is 2.055664 %
+Warning buffer pool capacity is 2.053223 %
+Warning buffer pool capacity is 2.050781 %
+Warning buffer pool capacity is 2.048340 %
+Warning buffer pool capacity is 2.045898 %
+Warning buffer pool capacity is 2.043457 %
+Warning buffer pool capacity is 2.041016 %
+Warning buffer pool capacity is 2.038574 %
+Warning buffer pool capacity is 2.036133 %
+Warning buffer pool capacity is 2.033691 %
+Warning buffer pool capacity is 2.031250 %
+Warning buffer pool capacity is 2.028809 %
+Warning buffer pool capacity is 2.026367 %
+Warning buffer pool capacity is 2.023926 %
+Warning buffer pool capacity is 2.021484 %
+Warning buffer pool capacity is 2.019043 %
+Warning buffer pool capacity is 2.016602 %
+Warning buffer pool capacity is 2.014160 %
+Warning buffer pool capacity is 2.011719 %
+Warning buffer pool capacity is 2.009277 %
+Warning buffer pool capacity is 2.006836 %
+Warning buffer pool capacity is 2.004395 %
+Warning buffer pool capacity is 2.001953 %
+Warning buffer pool capacity is 1.999512 %
+Warning buffer pool capacity is 1.997070 %
+Warning buffer pool capacity is 1.994629 %
+Warning buffer pool capacity is 1.992188 %
+Warning buffer pool capacity is 1.989746 %
+Warning buffer pool capacity is 1.987305 %
+Warning buffer pool capacity is 1.984863 %
+Warning buffer pool capacity is 1.982422 %
+Warning buffer pool capacity is 1.979980 %
+Warning buffer pool capacity is 1.977539 %
+Warning buffer pool capacity is 1.975098 %
+Warning buffer pool capacity is 1.972656 %
+Warning buffer pool capacity is 1.970215 %
+Warning buffer pool capacity is 1.967773 %
+Warning buffer pool capacity is 1.965332 %
+Warning buffer pool capacity is 1.962891 %
+Warning buffer pool capacity is 1.960449 %
+Warning buffer pool capacity is 1.958008 %
+Warning buffer pool capacity is 1.955566 %
+Warning buffer pool capacity is 1.953125 %
+Warning buffer pool capacity is 1.950684 %
+Warning buffer pool capacity is 1.948242 %
+Warning buffer pool capacity is 1.945801 %
+Warning buffer pool capacity is 1.943359 %
+Warning buffer pool capacity is 1.940918 %
+Warning buffer pool capacity is 1.938477 %
+Warning buffer pool capacity is 1.936035 %
+Warning buffer pool capacity is 1.933594 %
+Warning buffer pool capacity is 1.931152 %
+Warning buffer pool capacity is 1.928711 %
+Warning buffer pool capacity is 1.926270 %
+Warning buffer pool capacity is 1.923828 %
+Warning buffer pool capacity is 1.921387 %
+Warning buffer pool capacity is 1.918945 %
+Warning buffer pool capacity is 1.916504 %
+Warning buffer pool capacity is 1.914062 %
+Warning buffer pool capacity is 1.911621 %
+Warning buffer pool capacity is 1.909180 %
+Warning buffer pool capacity is 1.906738 %
+Warning buffer pool capacity is 1.904297 %
+Warning buffer pool capacity is 1.901855 %
+Warning buffer pool capacity is 1.899414 %
+Warning buffer pool capacity is 1.896973 %
+Warning buffer pool capacity is 1.894531 %
+Warning buffer pool capacity is 1.892090 %
+Warning buffer pool capacity is 1.889648 %
+Warning buffer pool capacity is 1.887207 %
+Warning buffer pool capacity is 1.884766 %
+Warning buffer pool capacity is 1.882324 %
+Warning buffer pool capacity is 1.879883 %
+Warning buffer pool capacity is 1.877441 %
+Warning buffer pool capacity is 1.875000 %
+Warning buffer pool capacity is 1.872559 %
+Warning buffer pool capacity is 1.870117 %
+Warning buffer pool capacity is 1.867676 %
+Warning buffer pool capacity is 1.865234 %
+Warning buffer pool capacity is 1.862793 %
+Warning buffer pool capacity is 1.860352 %
+Warning buffer pool capacity is 1.857910 %
+Warning buffer pool capacity is 1.855469 %
+Warning buffer pool capacity is 1.853027 %
+Warning buffer pool capacity is 1.850586 %
+Warning buffer pool capacity is 1.848145 %
+Warning buffer pool capacity is 1.845703 %
+Warning buffer pool capacity is 1.843262 %
+Warning buffer pool capacity is 1.840820 %
+Warning buffer pool capacity is 1.838379 %
+Warning buffer pool capacity is 1.835938 %
+Warning buffer pool capacity is 1.833496 %
+Warning buffer pool capacity is 1.831055 %
+Warning buffer pool capacity is 1.828613 %
+Warning buffer pool capacity is 1.826172 %
+Warning buffer pool capacity is 1.823730 %
+Warning buffer pool capacity is 1.821289 %
+Warning buffer pool capacity is 1.818848 %
+Warning buffer pool capacity is 1.816406 %
+Warning buffer pool capacity is 1.813965 %
+Warning buffer pool capacity is 1.811523 %
+Warning buffer pool capacity is 1.809082 %
+Warning buffer pool capacity is 1.806641 %
+Warning buffer pool capacity is 1.804199 %
+Warning buffer pool capacity is 1.801758 %
+Warning buffer pool capacity is 1.799316 %
+Warning buffer pool capacity is 1.796875 %
+Warning buffer pool capacity is 1.794434 %
+Warning buffer pool capacity is 1.791992 %
+Warning buffer pool capacity is 1.789551 %
+Warning buffer pool capacity is 1.787109 %
+Warning buffer pool capacity is 1.784668 %
+Warning buffer pool capacity is 1.782227 %
+Warning buffer pool capacity is 1.779785 %
+Warning buffer pool capacity is 1.777344 %
+Warning buffer pool capacity is 1.774902 %
+Warning buffer pool capacity is 1.772461 %
+Warning buffer pool capacity is 1.770020 %
+Warning buffer pool capacity is 1.767578 %
+Warning buffer pool capacity is 1.765137 %
+Warning buffer pool capacity is 1.762695 %
+Warning buffer pool capacity is 1.760254 %
+Warning buffer pool capacity is 1.757812 %
+Warning buffer pool capacity is 1.755371 %
+Warning buffer pool capacity is 1.752930 %
+Warning buffer pool capacity is 1.750488 %
+Warning buffer pool capacity is 1.748047 %
+Warning buffer pool capacity is 1.745605 %
+Warning buffer pool capacity is 1.743164 %
+Warning buffer pool capacity is 1.740723 %
+Warning buffer pool capacity is 1.738281 %
+Warning buffer pool capacity is 1.735840 %
+Warning buffer pool capacity is 1.733398 %
+Warning buffer pool capacity is 1.730957 %
+Warning buffer pool capacity is 1.728516 %
+Warning buffer pool capacity is 1.726074 %
+Warning buffer pool capacity is 1.723633 %
+Warning buffer pool capacity is 1.721191 %
+Warning buffer pool capacity is 1.718750 %
+Warning buffer pool capacity is 1.716309 %
+Warning buffer pool capacity is 1.713867 %
+Warning buffer pool capacity is 1.711426 %
+Warning buffer pool capacity is 1.708984 %
+Warning buffer pool capacity is 1.706543 %
+Warning buffer pool capacity is 1.704102 %
+Warning buffer pool capacity is 1.701660 %
+Warning buffer pool capacity is 1.699219 %
+Warning buffer pool capacity is 1.696777 %
+Warning buffer pool capacity is 1.694336 %
+Warning buffer pool capacity is 1.691895 %
+Warning buffer pool capacity is 1.689453 %
+Warning buffer pool capacity is 1.687012 %
+Warning buffer pool capacity is 1.684570 %
+Warning buffer pool capacity is 1.682129 %
+Warning buffer pool capacity is 1.679688 %
+Warning buffer pool capacity is 1.677246 %
+Warning buffer pool capacity is 1.674805 %
+Warning buffer pool capacity is 1.672363 %
+Warning buffer pool capacity is 1.669922 %
+Warning buffer pool capacity is 1.667480 %
+Warning buffer pool capacity is 1.665039 %
+Warning buffer pool capacity is 1.662598 %
+Warning buffer pool capacity is 1.660156 %
+Warning buffer pool capacity is 1.657715 %
+Warning buffer pool capacity is 1.655273 %
+Warning buffer pool capacity is 1.652832 %
+Warning buffer pool capacity is 1.650391 %
+Warning buffer pool capacity is 1.647949 %
+Warning buffer pool capacity is 1.645508 %
+Warning buffer pool capacity is 1.643066 %
+Warning buffer pool capacity is 1.640625 %
+Warning buffer pool capacity is 1.638184 %
+Warning buffer pool capacity is 1.635742 %
+Warning buffer pool capacity is 1.633301 %
+Warning buffer pool capacity is 1.630859 %
+Warning buffer pool capacity is 1.628418 %
+Warning buffer pool capacity is 1.625977 %
+Warning buffer pool capacity is 1.623535 %
+Warning buffer pool capacity is 1.621094 %
+Warning buffer pool capacity is 1.618652 %
+Warning buffer pool capacity is 1.616211 %
+Warning buffer pool capacity is 1.613770 %
+Warning buffer pool capacity is 1.611328 %
+Warning buffer pool capacity is 1.608887 %
+Warning buffer pool capacity is 1.606445 %
+Warning buffer pool capacity is 1.604004 %
+Warning buffer pool capacity is 1.601562 %
+Warning buffer pool capacity is 1.599121 %
+Warning buffer pool capacity is 1.596680 %
+Warning buffer pool capacity is 1.594238 %
+Warning buffer pool capacity is 1.591797 %
+Warning buffer pool capacity is 1.589355 %
+Warning buffer pool capacity is 1.586914 %
+Warning buffer pool capacity is 1.584473 %
+Warning buffer pool capacity is 1.582031 %
+Warning buffer pool capacity is 1.579590 %
+Warning buffer pool capacity is 1.577148 %
+Warning buffer pool capacity is 1.574707 %
+Warning buffer pool capacity is 1.572266 %
+Warning buffer pool capacity is 1.569824 %
+Warning buffer pool capacity is 1.567383 %
+Warning buffer pool capacity is 1.564941 %
+Warning buffer pool capacity is 1.562500 %
+Warning buffer pool capacity is 1.560059 %
+Warning buffer pool capacity is 1.557617 %
+Warning buffer pool capacity is 1.555176 %
+Warning buffer pool capacity is 1.552734 %
+Warning buffer pool capacity is 1.550293 %
+Warning buffer pool capacity is 1.547852 %
+Warning buffer pool capacity is 1.545410 %
+Warning buffer pool capacity is 1.542969 %
+Warning buffer pool capacity is 1.540527 %
+Warning buffer pool capacity is 1.538086 %
+Warning buffer pool capacity is 1.535645 %
+Warning buffer pool capacity is 1.533203 %
+Warning buffer pool capacity is 1.530762 %
+Warning buffer pool capacity is 1.528320 %
+Warning buffer pool capacity is 1.525879 %
+Warning buffer pool capacity is 1.523438 %
+Warning buffer pool capacity is 1.520996 %
+Warning buffer pool capacity is 1.518555 %
+Warning buffer pool capacity is 1.516113 %
+Warning buffer pool capacity is 1.513672 %
+Warning buffer pool capacity is 1.511230 %
+Warning buffer pool capacity is 1.508789 %
+Warning buffer pool capacity is 1.506348 %
+Warning buffer pool capacity is 1.503906 %
+Warning buffer pool capacity is 1.501465 %
+Warning buffer pool capacity is 1.499023 %
+Warning buffer pool capacity is 1.496582 %
+Warning buffer pool capacity is 1.494141 %
+Warning buffer pool capacity is 1.491699 %
+Warning buffer pool capacity is 1.489258 %
+Warning buffer pool capacity is 1.486816 %
+Warning buffer pool capacity is 1.484375 %
+Warning buffer pool capacity is 1.481934 %
+Warning buffer pool capacity is 1.479492 %
+Warning buffer pool capacity is 1.477051 %
+Warning buffer pool capacity is 1.474609 %
+Warning buffer pool capacity is 1.472168 %
+Warning buffer pool capacity is 1.469727 %
+Warning buffer pool capacity is 1.467285 %
+Warning buffer pool capacity is 1.464844 %
+Warning buffer pool capacity is 1.462402 %
+Warning buffer pool capacity is 1.459961 %
+Warning buffer pool capacity is 1.457520 %
+Warning buffer pool capacity is 1.455078 %
+Warning buffer pool capacity is 1.452637 %
+Warning buffer pool capacity is 1.450195 %
+Warning buffer pool capacity is 1.447754 %
+Warning buffer pool capacity is 1.445312 %
+Warning buffer pool capacity is 1.442871 %
+Warning buffer pool capacity is 1.440430 %
+Warning buffer pool capacity is 1.437988 %
+Warning buffer pool capacity is 1.435547 %
+Warning buffer pool capacity is 1.433105 %
+Warning buffer pool capacity is 1.430664 %
+Warning buffer pool capacity is 1.428223 %
+Warning buffer pool capacity is 1.425781 %
+Warning buffer pool capacity is 1.423340 %
+Warning buffer pool capacity is 1.420898 %
+Warning buffer pool capacity is 1.418457 %
+Warning buffer pool capacity is 1.416016 %
+Warning buffer pool capacity is 1.413574 %
+Warning buffer pool capacity is 1.411133 %
+Warning buffer pool capacity is 1.408691 %
+Warning buffer pool capacity is 1.406250 %
+Warning buffer pool capacity is 1.403809 %
+Warning buffer pool capacity is 1.401367 %
+Warning buffer pool capacity is 1.398926 %
+Warning buffer pool capacity is 1.396484 %
+Warning buffer pool capacity is 1.394043 %
+Warning buffer pool capacity is 1.391602 %
+Warning buffer pool capacity is 1.389160 %
+Warning buffer pool capacity is 1.386719 %
+Warning buffer pool capacity is 1.384277 %
+Warning buffer pool capacity is 1.381836 %
+Warning buffer pool capacity is 1.379395 %
+Warning buffer pool capacity is 1.376953 %
+Warning buffer pool capacity is 1.374512 %
+Warning buffer pool capacity is 1.372070 %
+Warning buffer pool capacity is 1.369629 %
+Warning buffer pool capacity is 1.367188 %
+Warning buffer pool capacity is 1.364746 %
+Warning buffer pool capacity is 1.362305 %
+Warning buffer pool capacity is 1.359863 %
+Warning buffer pool capacity is 1.357422 %
+Warning buffer pool capacity is 1.354980 %
+Warning buffer pool capacity is 1.352539 %
+Warning buffer pool capacity is 1.350098 %
+Warning buffer pool capacity is 1.347656 %
+Warning buffer pool capacity is 1.345215 %
+Warning buffer pool capacity is 1.342773 %
+Warning buffer pool capacity is 1.340332 %
+Warning buffer pool capacity is 1.337891 %
+Warning buffer pool capacity is 1.335449 %
+Warning buffer pool capacity is 1.333008 %
+Warning buffer pool capacity is 1.330566 %
+Warning buffer pool capacity is 1.328125 %
+Warning buffer pool capacity is 1.325684 %
+Warning buffer pool capacity is 1.323242 %
+Warning buffer pool capacity is 1.320801 %
+Warning buffer pool capacity is 1.318359 %
+Warning buffer pool capacity is 1.315918 %
+Warning buffer pool capacity is 1.313477 %
+Warning buffer pool capacity is 1.311035 %
+Warning buffer pool capacity is 1.308594 %
+Warning buffer pool capacity is 1.306152 %
+Warning buffer pool capacity is 1.303711 %
+Warning buffer pool capacity is 1.301270 %
+Warning buffer pool capacity is 1.298828 %
+Warning buffer pool capacity is 1.296387 %
+Warning buffer pool capacity is 1.293945 %
+Warning buffer pool capacity is 1.291504 %
+Warning buffer pool capacity is 1.289062 %
+Warning buffer pool capacity is 1.286621 %
+Warning buffer pool capacity is 1.284180 %
+Warning buffer pool capacity is 1.281738 %
+Warning buffer pool capacity is 1.279297 %
+Warning buffer pool capacity is 1.276855 %
+Warning buffer pool capacity is 1.274414 %
+Warning buffer pool capacity is 1.271973 %
+Warning buffer pool capacity is 1.269531 %
+Warning buffer pool capacity is 1.267090 %
+Warning buffer pool capacity is 1.264648 %
+Warning buffer pool capacity is 1.262207 %
+Warning buffer pool capacity is 1.259766 %
+Warning buffer pool capacity is 1.257324 %
+Warning buffer pool capacity is 1.254883 %
+Warning buffer pool capacity is 1.252441 %
+Warning buffer pool capacity is 1.250000 %
+Warning buffer pool capacity is 1.247559 %
+Warning buffer pool capacity is 1.245117 %
+Warning buffer pool capacity is 1.242676 %
+Warning buffer pool capacity is 1.240234 %
+Warning buffer pool capacity is 1.237793 %
+Warning buffer pool capacity is 1.235352 %
+Warning buffer pool capacity is 1.232910 %
+Warning buffer pool capacity is 1.230469 %
+Warning buffer pool capacity is 1.228027 %
+Warning buffer pool capacity is 1.225586 %
+Warning buffer pool capacity is 1.223145 %
+Warning buffer pool capacity is 1.220703 %
+Warning buffer pool capacity is 1.218262 %
+Warning buffer pool capacity is 1.215820 %
+Warning buffer pool capacity is 1.213379 %
+Warning buffer pool capacity is 1.210938 %
+Warning buffer pool capacity is 1.208496 %
+Warning buffer pool capacity is 1.206055 %
+Warning buffer pool capacity is 1.203613 %
+Warning buffer pool capacity is 1.201172 %
+Warning buffer pool capacity is 1.198730 %
+Warning buffer pool capacity is 1.196289 %
+Warning buffer pool capacity is 1.193848 %
+Warning buffer pool capacity is 1.191406 %
+Warning buffer pool capacity is 1.188965 %
+Warning buffer pool capacity is 1.186523 %
+Warning buffer pool capacity is 1.184082 %
+Warning buffer pool capacity is 1.181641 %
+Warning buffer pool capacity is 1.179199 %
+Warning buffer pool capacity is 1.176758 %
+Warning buffer pool capacity is 1.174316 %
+Warning buffer pool capacity is 1.171875 %
+Warning buffer pool capacity is 1.169434 %
+Warning buffer pool capacity is 1.166992 %
+Warning buffer pool capacity is 1.164551 %
+Warning buffer pool capacity is 1.162109 %
+Warning buffer pool capacity is 1.159668 %
+Warning buffer pool capacity is 1.157227 %
+Warning buffer pool capacity is 1.154785 %
+Warning buffer pool capacity is 1.152344 %
+Warning buffer pool capacity is 1.149902 %
+Warning buffer pool capacity is 1.147461 %
+Warning buffer pool capacity is 1.145020 %
+Warning buffer pool capacity is 1.142578 %
+Warning buffer pool capacity is 1.140137 %
+Warning buffer pool capacity is 1.137695 %
+Warning buffer pool capacity is 1.135254 %
+Warning buffer pool capacity is 1.132812 %
+Warning buffer pool capacity is 1.130371 %
+Warning buffer pool capacity is 1.127930 %
+Warning buffer pool capacity is 1.125488 %
+Warning buffer pool capacity is 1.123047 %
+Warning buffer pool capacity is 1.120605 %
+Warning buffer pool capacity is 1.118164 %
+Warning buffer pool capacity is 1.115723 %
+Warning buffer pool capacity is 1.113281 %
+Warning buffer pool capacity is 1.110840 %
+Warning buffer pool capacity is 1.108398 %
+Warning buffer pool capacity is 1.105957 %
+Warning buffer pool capacity is 1.103516 %
+Warning buffer pool capacity is 1.101074 %
+Warning buffer pool capacity is 1.098633 %
+Warning buffer pool capacity is 1.096191 %
+Warning buffer pool capacity is 1.093750 %
+Warning buffer pool capacity is 1.091309 %
+Warning buffer pool capacity is 1.088867 %
+Warning buffer pool capacity is 1.086426 %
+Warning buffer pool capacity is 1.083984 %
+Warning buffer pool capacity is 1.081543 %
+Warning buffer pool capacity is 1.079102 %
+Warning buffer pool capacity is 1.076660 %
+Warning buffer pool capacity is 1.074219 %
+Warning buffer pool capacity is 1.071777 %
+Warning buffer pool capacity is 1.069336 %
+Warning buffer pool capacity is 1.066895 %
+Warning buffer pool capacity is 1.064453 %
+Warning buffer pool capacity is 1.062012 %
+Warning buffer pool capacity is 1.059570 %
+Warning buffer pool capacity is 1.057129 %
+Warning buffer pool capacity is 1.054688 %
+Warning buffer pool capacity is 1.052246 %
+Warning buffer pool capacity is 1.049805 %
+Warning buffer pool capacity is 1.047363 %
+Warning buffer pool capacity is 1.044922 %
+Warning buffer pool capacity is 1.042480 %
+Warning buffer pool capacity is 1.040039 %
+Warning buffer pool capacity is 1.037598 %
+Warning buffer pool capacity is 1.035156 %
+Warning buffer pool capacity is 1.032715 %
+Warning buffer pool capacity is 1.030273 %
+Warning buffer pool capacity is 1.027832 %
+Warning buffer pool capacity is 1.025391 %
+Warning buffer pool capacity is 1.022949 %
+Warning buffer pool capacity is 1.020508 %
+Warning buffer pool capacity is 1.018066 %
+Warning buffer pool capacity is 1.015625 %
+Warning buffer pool capacity is 1.013184 %
+Warning buffer pool capacity is 1.010742 %
+Warning buffer pool capacity is 1.008301 %
+Warning buffer pool capacity is 1.005859 %
+Warning buffer pool capacity is 1.003418 %
+Warning buffer pool capacity is 1.000977 %
+Warning buffer pool capacity is 0.998535 %
+Warning buffer pool capacity is 0.996094 %
+Warning buffer pool capacity is 0.993652 %
+Warning buffer pool capacity is 0.991211 %
+Warning buffer pool capacity is 0.988770 %
+Warning buffer pool capacity is 0.986328 %
+Warning buffer pool capacity is 0.983887 %
+Warning buffer pool capacity is 0.981445 %
+Warning buffer pool capacity is 0.979004 %
+Warning buffer pool capacity is 0.976562 %
+Warning buffer pool capacity is 0.974121 %
+Warning buffer pool capacity is 0.971680 %
+Warning buffer pool capacity is 0.969238 %
+Warning buffer pool capacity is 0.966797 %
+Warning buffer pool capacity is 0.964355 %
+Warning buffer pool capacity is 0.961914 %
+Warning buffer pool capacity is 0.959473 %
+Warning buffer pool capacity is 0.957031 %
+Warning buffer pool capacity is 0.954590 %
+Warning buffer pool capacity is 0.952148 %
+Warning buffer pool capacity is 0.949707 %
+Warning buffer pool capacity is 0.947266 %
+Warning buffer pool capacity is 0.944824 %
+Warning buffer pool capacity is 0.942383 %
+Warning buffer pool capacity is 0.939941 %
+Warning buffer pool capacity is 0.937500 %
+Warning buffer pool capacity is 0.935059 %
+Warning buffer pool capacity is 0.932617 %
+Warning buffer pool capacity is 0.930176 %
+Warning buffer pool capacity is 0.927734 %
+Warning buffer pool capacity is 0.925293 %
+Warning buffer pool capacity is 0.922852 %
+Warning buffer pool capacity is 0.920410 %
+Warning buffer pool capacity is 0.917969 %
+Warning buffer pool capacity is 0.915527 %
+Warning buffer pool capacity is 0.913086 %
+Warning buffer pool capacity is 0.910645 %
+Warning buffer pool capacity is 0.908203 %
+Warning buffer pool capacity is 0.905762 %
+Warning buffer pool capacity is 0.903320 %
+Warning buffer pool capacity is 0.900879 %
+Warning buffer pool capacity is 0.898438 %
+Warning buffer pool capacity is 0.895996 %
+Warning buffer pool capacity is 0.893555 %
+Warning buffer pool capacity is 0.891113 %
+Warning buffer pool capacity is 0.888672 %
+Warning buffer pool capacity is 0.886230 %
+Warning buffer pool capacity is 0.883789 %
+Warning buffer pool capacity is 0.881348 %
+Warning buffer pool capacity is 0.878906 %
+Warning buffer pool capacity is 0.876465 %
+Warning buffer pool capacity is 0.874023 %
+Warning buffer pool capacity is 0.871582 %
+Warning buffer pool capacity is 0.869141 %
+Warning buffer pool capacity is 0.866699 %
+Warning buffer pool capacity is 0.864258 %
+Warning buffer pool capacity is 0.861816 %
+Warning buffer pool capacity is 0.859375 %
+Warning buffer pool capacity is 0.856934 %
+Warning buffer pool capacity is 0.854492 %
+Warning buffer pool capacity is 0.852051 %
+Warning buffer pool capacity is 0.849609 %
+Warning buffer pool capacity is 0.847168 %
+Warning buffer pool capacity is 0.844727 %
+Warning buffer pool capacity is 0.842285 %
+Warning buffer pool capacity is 0.839844 %
+Warning buffer pool capacity is 0.837402 %
+Warning buffer pool capacity is 0.834961 %
+Warning buffer pool capacity is 0.832520 %
+Warning buffer pool capacity is 0.830078 %
+Warning buffer pool capacity is 0.827637 %
+Warning buffer pool capacity is 0.825195 %
+Warning buffer pool capacity is 0.822754 %
+Warning buffer pool capacity is 0.820312 %
+Warning buffer pool capacity is 0.817871 %
+Warning buffer pool capacity is 0.815430 %
+Warning buffer pool capacity is 0.812988 %
+Warning buffer pool capacity is 0.810547 %
+Warning buffer pool capacity is 0.808105 %
+Warning buffer pool capacity is 0.805664 %
+Warning buffer pool capacity is 0.803223 %
+Warning buffer pool capacity is 0.800781 %
+Warning buffer pool capacity is 0.798340 %
+Warning buffer pool capacity is 0.795898 %
+Warning buffer pool capacity is 0.793457 %
+Warning buffer pool capacity is 0.791016 %
+Warning buffer pool capacity is 0.788574 %
+Warning buffer pool capacity is 0.786133 %
+Warning buffer pool capacity is 0.783691 %
+Warning buffer pool capacity is 0.781250 %
+Warning buffer pool capacity is 0.778809 %
+Warning buffer pool capacity is 0.776367 %
+Warning buffer pool capacity is 0.773926 %
+Warning buffer pool capacity is 0.771484 %
+Warning buffer pool capacity is 0.769043 %
+Warning buffer pool capacity is 0.766602 %
+Warning buffer pool capacity is 0.764160 %
+Warning buffer pool capacity is 0.761719 %
+Warning buffer pool capacity is 0.759277 %
+Warning buffer pool capacity is 0.756836 %
+Warning buffer pool capacity is 0.754395 %
+Warning buffer pool capacity is 0.751953 %
+Warning buffer pool capacity is 0.749512 %
+Warning buffer pool capacity is 0.747070 %
+Warning buffer pool capacity is 0.744629 %
+Warning buffer pool capacity is 0.742188 %
+Warning buffer pool capacity is 0.739746 %
+Warning buffer pool capacity is 0.737305 %
+Warning buffer pool capacity is 0.734863 %
+Warning buffer pool capacity is 0.732422 %
+Warning buffer pool capacity is 0.729980 %
+Warning buffer pool capacity is 0.727539 %
+Warning buffer pool capacity is 0.725098 %
+Warning buffer pool capacity is 0.722656 %
+Warning buffer pool capacity is 0.720215 %
+Warning buffer pool capacity is 0.717773 %
+Warning buffer pool capacity is 0.715332 %
+Warning buffer pool capacity is 0.712891 %
+Warning buffer pool capacity is 0.710449 %
+Warning buffer pool capacity is 0.708008 %
+Warning buffer pool capacity is 0.705566 %
+Warning buffer pool capacity is 0.703125 %
+Warning buffer pool capacity is 0.700684 %
+Warning buffer pool capacity is 0.698242 %
+Warning buffer pool capacity is 0.695801 %
+Warning buffer pool capacity is 0.693359 %
+Warning buffer pool capacity is 0.690918 %
+Warning buffer pool capacity is 0.688477 %
+Warning buffer pool capacity is 0.686035 %
+Warning buffer pool capacity is 0.683594 %
+Warning buffer pool capacity is 0.681152 %
+Warning buffer pool capacity is 0.678711 %
+Warning buffer pool capacity is 0.676270 %
+Warning buffer pool capacity is 0.673828 %
+Warning buffer pool capacity is 0.671387 %
+Warning buffer pool capacity is 0.668945 %
+Warning buffer pool capacity is 0.666504 %
+Warning buffer pool capacity is 0.664062 %
+Warning buffer pool capacity is 0.661621 %
+Warning buffer pool capacity is 0.659180 %
+Warning buffer pool capacity is 0.656738 %
+Warning buffer pool capacity is 0.654297 %
+Warning buffer pool capacity is 0.651855 %
+Warning buffer pool capacity is 0.649414 %
+Warning buffer pool capacity is 0.646973 %
+Warning buffer pool capacity is 0.644531 %
+Warning buffer pool capacity is 0.642090 %
+Warning buffer pool capacity is 0.639648 %
+Warning buffer pool capacity is 0.637207 %
+Warning buffer pool capacity is 0.634766 %
+Warning buffer pool capacity is 0.632324 %
+Warning buffer pool capacity is 0.629883 %
+Warning buffer pool capacity is 0.627441 %
+Warning buffer pool capacity is 0.625000 %
+Warning buffer pool capacity is 0.622559 %
+Warning buffer pool capacity is 0.620117 %
+Warning buffer pool capacity is 0.617676 %
+Warning buffer pool capacity is 0.615234 %
+Warning buffer pool capacity is 0.612793 %
+Warning buffer pool capacity is 0.610352 %
+Warning buffer pool capacity is 0.607910 %
+Warning buffer pool capacity is 0.605469 %
+Warning buffer pool capacity is 0.603027 %
+Warning buffer pool capacity is 0.600586 %
+Warning buffer pool capacity is 0.598145 %
+Warning buffer pool capacity is 0.595703 %
+Warning buffer pool capacity is 0.593262 %
+Warning buffer pool capacity is 0.590820 %
+Warning buffer pool capacity is 0.588379 %
+Warning buffer pool capacity is 0.585938 %
+Warning buffer pool capacity is 0.583496 %
+Warning buffer pool capacity is 0.581055 %
+Warning buffer pool capacity is 0.578613 %
+Warning buffer pool capacity is 0.576172 %
+Warning buffer pool capacity is 0.573730 %
+Warning buffer pool capacity is 0.571289 %
+Warning buffer pool capacity is 0.568848 %
+Warning buffer pool capacity is 0.566406 %
+Warning buffer pool capacity is 0.563965 %
+Warning buffer pool capacity is 0.561523 %
+Warning buffer pool capacity is 0.559082 %
+Warning buffer pool capacity is 0.556641 %
+Warning buffer pool capacity is 0.554199 %
+Warning buffer pool capacity is 0.551758 %
+Warning buffer pool capacity is 0.549316 %
+Warning buffer pool capacity is 0.546875 %
+Warning buffer pool capacity is 0.544434 %
+Warning buffer pool capacity is 0.541992 %
+Warning buffer pool capacity is 0.539551 %
+Warning buffer pool capacity is 0.537109 %
+Warning buffer pool capacity is 0.534668 %
+Warning buffer pool capacity is 0.532227 %
+Warning buffer pool capacity is 0.529785 %
+Warning buffer pool capacity is 0.527344 %
+Warning buffer pool capacity is 0.524902 %
+Warning buffer pool capacity is 0.522461 %
+Warning buffer pool capacity is 0.520020 %
+Warning buffer pool capacity is 0.517578 %
+Warning buffer pool capacity is 0.515137 %
+Warning buffer pool capacity is 0.512695 %
+Warning buffer pool capacity is 0.510254 %
+Warning buffer pool capacity is 0.507812 %
+Warning buffer pool capacity is 0.505371 %
+Warning buffer pool capacity is 0.502930 %
+Warning buffer pool capacity is 0.500488 %
+Warning buffer pool capacity is 0.498047 %
+Warning buffer pool capacity is 0.495605 %
+Warning buffer pool capacity is 0.493164 %
+Warning buffer pool capacity is 0.490723 %
+Warning buffer pool capacity is 0.488281 %
+Warning buffer pool capacity is 0.485840 %
+Warning buffer pool capacity is 0.483398 %
+Warning buffer pool capacity is 0.480957 %
+Warning buffer pool capacity is 0.478516 %
+Warning buffer pool capacity is 0.476074 %
+Warning buffer pool capacity is 0.473633 %
+Warning buffer pool capacity is 0.471191 %
+Warning buffer pool capacity is 0.468750 %
+Warning buffer pool capacity is 0.466309 %
+Warning buffer pool capacity is 0.463867 %
+Warning buffer pool capacity is 0.461426 %
+Warning buffer pool capacity is 0.458984 %
+Warning buffer pool capacity is 0.456543 %
+Warning buffer pool capacity is 0.454102 %
+Warning buffer pool capacity is 0.451660 %
+Warning buffer pool capacity is 0.449219 %
+Warning buffer pool capacity is 0.446777 %
+Warning buffer pool capacity is 0.444336 %
+Warning buffer pool capacity is 0.441895 %
+Warning buffer pool capacity is 0.439453 %
+Warning buffer pool capacity is 0.437012 %
+Warning buffer pool capacity is 0.434570 %
+Warning buffer pool capacity is 0.432129 %
+Warning buffer pool capacity is 0.429688 %
+Warning buffer pool capacity is 0.427246 %
+Warning buffer pool capacity is 0.424805 %
+Warning buffer pool capacity is 0.422363 %
+Warning buffer pool capacity is 0.419922 %
+Warning buffer pool capacity is 0.417480 %
+Warning buffer pool capacity is 0.415039 %
+Warning buffer pool capacity is 0.412598 %
+Warning buffer pool capacity is 0.410156 %
+Warning buffer pool capacity is 0.407715 %
+Warning buffer pool capacity is 0.405273 %
+Warning buffer pool capacity is 0.402832 %
+Warning buffer pool capacity is 0.400391 %
+Warning buffer pool capacity is 0.397949 %
+Warning buffer pool capacity is 0.395508 %
+Warning buffer pool capacity is 0.393066 %
+Warning buffer pool capacity is 0.390625 %
+Warning buffer pool capacity is 0.388184 %
+Warning buffer pool capacity is 0.385742 %
+Warning buffer pool capacity is 0.383301 %
+Warning buffer pool capacity is 0.380859 %
+Warning buffer pool capacity is 0.378418 %
+Warning buffer pool capacity is 0.375977 %
+Warning buffer pool capacity is 0.373535 %
+Warning buffer pool capacity is 0.371094 %
+Warning buffer pool capacity is 0.368652 %
+Warning buffer pool capacity is 0.366211 %
+Warning buffer pool capacity is 0.363770 %
+Warning buffer pool capacity is 0.361328 %
+Warning buffer pool capacity is 0.358887 %
+Warning buffer pool capacity is 0.356445 %
+Warning buffer pool capacity is 0.354004 %
+Warning buffer pool capacity is 0.351562 %
+Warning buffer pool capacity is 0.349121 %
+Warning buffer pool capacity is 0.346680 %
+Warning buffer pool capacity is 0.344238 %
+Warning buffer pool capacity is 0.341797 %
+Warning buffer pool capacity is 0.339355 %
+Warning buffer pool capacity is 0.336914 %
+Warning buffer pool capacity is 0.334473 %
+Warning buffer pool capacity is 0.332031 %
+Warning buffer pool capacity is 0.329590 %
+Warning buffer pool capacity is 0.327148 %
+Warning buffer pool capacity is 0.324707 %
+Warning buffer pool capacity is 0.322266 %
+Warning buffer pool capacity is 0.319824 %
+Warning buffer pool capacity is 0.317383 %
+Warning buffer pool capacity is 0.314941 %
+Warning buffer pool capacity is 0.312500 %
+Warning buffer pool capacity is 0.310059 %
+Warning buffer pool capacity is 0.307617 %
+Warning buffer pool capacity is 0.305176 %
+Warning buffer pool capacity is 0.302734 %
+Warning buffer pool capacity is 0.300293 %
+Warning buffer pool capacity is 0.297852 %
+Warning buffer pool capacity is 0.295410 %
+Warning buffer pool capacity is 0.292969 %
+Warning buffer pool capacity is 0.290527 %
+Warning buffer pool capacity is 0.288086 %
+Warning buffer pool capacity is 0.285645 %
+Warning buffer pool capacity is 0.283203 %
+Warning buffer pool capacity is 0.280762 %
+Warning buffer pool capacity is 0.278320 %
+Warning buffer pool capacity is 0.275879 %
+Warning buffer pool capacity is 0.273438 %
+Warning buffer pool capacity is 0.270996 %
+Warning buffer pool capacity is 0.268555 %
+Warning buffer pool capacity is 0.266113 %
+Warning buffer pool capacity is 0.263672 %
+Warning buffer pool capacity is 0.261230 %
+Warning buffer pool capacity is 0.258789 %
+Warning buffer pool capacity is 0.256348 %
+Warning buffer pool capacity is 0.253906 %
+Warning buffer pool capacity is 0.251465 %
+Warning buffer pool capacity is 0.249023 %
+Warning buffer pool capacity is 0.246582 %
+Warning buffer pool capacity is 0.244141 %
+Warning buffer pool capacity is 0.241699 %
+Warning buffer pool capacity is 0.239258 %
+Warning buffer pool capacity is 0.236816 %
+Warning buffer pool capacity is 0.234375 %
+Warning buffer pool capacity is 0.231934 %
+Warning buffer pool capacity is 0.229492 %
+Warning buffer pool capacity is 0.227051 %
+Warning buffer pool capacity is 0.224609 %
+Warning buffer pool capacity is 0.222168 %
+Warning buffer pool capacity is 0.219727 %
+Warning buffer pool capacity is 0.217285 %
+Warning buffer pool capacity is 0.214844 %
+Warning buffer pool capacity is 0.212402 %
+Warning buffer pool capacity is 0.209961 %
+Warning buffer pool capacity is 0.207520 %
+Warning buffer pool capacity is 0.205078 %
+Warning buffer pool capacity is 0.202637 %
+Warning buffer pool capacity is 0.200195 %
+Warning buffer pool capacity is 0.197754 %
+Warning buffer pool capacity is 0.195312 %
+Warning buffer pool capacity is 0.192871 %
+Warning buffer pool capacity is 0.190430 %
+Warning buffer pool capacity is 0.187988 %
+Warning buffer pool capacity is 0.185547 %
+Warning buffer pool capacity is 0.183105 %
+Warning buffer pool capacity is 0.180664 %
+Warning buffer pool capacity is 0.178223 %
+Warning buffer pool capacity is 0.175781 %
+Warning buffer pool capacity is 0.173340 %
+Warning buffer pool capacity is 0.170898 %
+Warning buffer pool capacity is 0.168457 %
+Warning buffer pool capacity is 0.166016 %
+Warning buffer pool capacity is 0.163574 %
+Warning buffer pool capacity is 0.161133 %
+Warning buffer pool capacity is 0.158691 %
+Warning buffer pool capacity is 0.156250 %
+Warning buffer pool capacity is 0.153809 %
+Warning buffer pool capacity is 0.151367 %
+Warning buffer pool capacity is 0.148926 %
+Warning buffer pool capacity is 0.146484 %
+Warning buffer pool capacity is 0.144043 %
+Warning buffer pool capacity is 0.141602 %
+Warning buffer pool capacity is 0.139160 %
+Warning buffer pool capacity is 0.136719 %
+Warning buffer pool capacity is 0.134277 %
+Warning buffer pool capacity is 0.131836 %
+Warning buffer pool capacity is 0.129395 %
+Warning buffer pool capacity is 0.126953 %
+Warning buffer pool capacity is 0.124512 %
+Warning buffer pool capacity is 0.122070 %
+Warning buffer pool capacity is 0.119629 %
+Warning buffer pool capacity is 0.117188 %
+Warning buffer pool capacity is 0.114746 %
+Warning buffer pool capacity is 0.112305 %
+Warning buffer pool capacity is 0.109863 %
+Warning buffer pool capacity is 0.107422 %
+Warning buffer pool capacity is 0.104980 %
+Warning buffer pool capacity is 0.102539 %
+Warning buffer pool capacity is 0.100098 %
+Warning buffer pool capacity is 0.097656 %
+Warning buffer pool capacity is 0.095215 %
+Warning buffer pool capacity is 0.092773 %
+Warning buffer pool capacity is 0.090332 %
+Warning buffer pool capacity is 0.087891 %
+Warning buffer pool capacity is 0.085449 %
+Warning buffer pool capacity is 0.083008 %
+Warning buffer pool capacity is 0.080566 %
+Warning buffer pool capacity is 0.078125 %
+Warning buffer pool capacity is 0.075684 %
+Warning buffer pool capacity is 0.073242 %
+Warning buffer pool capacity is 0.070801 %
+Warning buffer pool capacity is 0.068359 %
+Warning buffer pool capacity is 0.065918 %
+Warning buffer pool capacity is 0.063477 %
+Warning buffer pool capacity is 0.061035 %
+Warning buffer pool capacity is 0.058594 %
+Warning buffer pool capacity is 0.056152 %
+Warning buffer pool capacity is 0.053711 %
+Warning buffer pool capacity is 0.051270 %
+Warning buffer pool capacity is 0.048828 %
+Warning buffer pool capacity is 0.046387 %
+Warning buffer pool capacity is 0.043945 %
+Warning buffer pool capacity is 0.041504 %
+Warning buffer pool capacity is 0.039062 %
+Warning buffer pool capacity is 0.036621 %
+Warning buffer pool capacity is 0.034180 %
+Warning buffer pool capacity is 0.031738 %
+Warning buffer pool capacity is 0.029297 %
+Warning buffer pool capacity is 0.026855 %
+Warning buffer pool capacity is 0.024414 %
+Warning buffer pool capacity is 0.021973 %
+Warning buffer pool capacity is 0.019531 %
+Warning buffer pool capacity is 0.017090 %
+Warning buffer pool capacity is 0.014648 %
+Warning buffer pool capacity is 0.012207 %
+Warning buffer pool capacity is 0.009766 %
+Warning buffer pool capacity is 0.007324 %
+Warning buffer pool capacity is 0.004883 %
+Warning buffer pool capacity is 0.002441 %
+Warning buffer pool capacity is 0.000000 %
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
+Error - buffer pool is empty
+Size 0, 40960 buffers in queue
+ - 40960x pdu_queue::request
